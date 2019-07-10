@@ -3,8 +3,6 @@
 > SDK for Amazon Marketplace Web Services
 
 [![npm version](https://badgen.net/npm/v/@bizon/amazon-ids)](https://www.npmjs.com/package/@bizon/amazon-ids)
-[![codecov](https://badgen.net/codecov/c/github/bizon/amazon-ids)](https://codecov.io/gh/bizon/amazon-ids)
-[![dependencies Status](https://badgen.net/david/dep/bizon/amazon-ids)](https://david-dm.org/bizon/amazon-ids)
 [![XO code style](https://badgen.net/badge/code%20style/XO/cyan)](https://github.com/xojs/xo)
 
 ## Getting started
