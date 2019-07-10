@@ -13,7 +13,7 @@ npm install --save @bizon/amazon-ids
 
 ## API
 
-### marketplaces
+### `marketplaces`
 
 ```js
 const {marketplaces} = require('@bizon/amazon-ids')
