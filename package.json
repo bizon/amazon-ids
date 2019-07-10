@@ -8,7 +8,7 @@
   "license": "MIT",
   "files": [
     "index.js",
-    "marketplace.json"
+    "marketplaces.json"
   ],
   "dependencies": {
     "memoizee": "^0.4.14"
