@@ -36,6 +36,7 @@ console.log(getMarketplaceById('A1AM78C64UM0Y8'))
   name: 'Mexico',
   domain: 'amazon.com.mx',
   mwsDomain: 'mws.amazonservices.com',
+  imagesDomain: 'images-na.ssl-images-amazon.com',
   vendorId: 'AVDBXBAVVSXLQ' }
 */
 ```
@@ -53,6 +54,7 @@ console.log(getMarketplaceByCode('mx'))
   name: 'Mexico',
   domain: 'amazon.com.mx',
   mwsDomain: 'mws.amazonservices.com',
+  imagesDomain: 'images-na.ssl-images-amazon.com',
   vendorId: 'AVDBXBAVVSXLQ' }
 */
 ```
@@ -70,6 +72,7 @@ console.log(getMarketplaceByDomain('Amazon.com.mx'))
   name: 'Mexico',
   domain: 'amazon.com.mx',
   mwsDomain: 'mws.amazonservices.com',
+  imagesDomain: 'images-na.ssl-images-amazon.com',
   vendorId: 'AVDBXBAVVSXLQ' }
 */
 ```

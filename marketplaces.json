@@ -5,6 +5,7 @@
     "name": "Germany",
     "domain": "amazon.de",
     "mwsDomain": "mws-eu.amazonservices.com",
+    "imagesDomain": "images-eu.ssl-images-amazon.com",
     "vendorId": "A3JWKAKR8XB7XF"
   },
   {
@@ -13,6 +14,7 @@
     "name": "Spain",
     "domain": "amazon.es",
     "mwsDomain": "mws-eu.amazonservices.com",
+    "imagesDomain": "images-eu.ssl-images-amazon.com",
     "vendorId": "A1AT7YVPFBWXBL"
   },
   {
@@ -21,6 +23,7 @@
     "name": "France",
     "domain": "amazon.fr",
     "mwsDomain": "mws-eu.amazonservices.com",
+    "imagesDomain": "images-eu.ssl-images-amazon.com",
     "vendorId": "A1X6FK5RDHNB96"
   },
   {
@@ -29,6 +32,7 @@
     "name": "Italy",
     "domain": "amazon.it",
     "mwsDomain": "mws-eu.amazonservices.com",
+    "imagesDomain": "images-eu.ssl-images-amazon.com",
     "vendorId": "A11IL2PNWYJU7H"
   },
   {
@@ -37,6 +41,7 @@
     "name": "United Kingdom",
     "domain": "amazon.co.uk",
     "mwsDomain": "mws-eu.amazonservices.com",
+    "imagesDomain": "images-eu.ssl-images-amazon.com",
     "vendorId": "A3P5ROKL5A1OLE"
   },
   {
@@ -45,6 +50,7 @@
     "name": "Canada",
     "domain": "amazon.ca",
     "mwsDomain": "mws.amazonservices.com",
+    "imagesDomain": "images-na.ssl-images-amazon.com",
     "vendorId": "A3DWYIK6Y9EEQB"
   },
   {
@@ -53,6 +59,7 @@
     "name": "Mexico",
     "domain": "amazon.com.mx",
     "mwsDomain": "mws.amazonservices.com",
+    "imagesDomain": "images-na.ssl-images-amazon.com",
     "vendorId": "AVDBXBAVVSXLQ"
   },
   {
@@ -61,6 +68,7 @@
     "name": "United States",
     "domain": "amazon.com",
     "mwsDomain": "mws.amazonservices.com",
+    "imagesDomain": "images-na.ssl-images-amazon.com",
     "vendorId": "ATVPDKIKX0DER"
   },
   {
@@ -69,6 +77,7 @@
     "name": "Brazil",
     "domain": "amazon.com.br",
     "mwsDomain": "mws.amazonservices.com",
+    "imagesDomain": "images-na.ssl-images-amazon.com",
     "vendorId": "A1ZZFT5FULY4LN"
   },
   {
@@ -77,6 +86,7 @@
     "name": "United Arab Emirates",
     "domain": "amazon.ae",
     "mwsDomain": "mws.amazonservices.ae",
+    "imagesDomain": "images-eu.ssl-images-amazon.com",
     "vendorId": "A2KKU8J8O8784X"
   },
   {
@@ -85,6 +95,7 @@
     "name": "Turkey",
     "domain": "amazon.com.tr",
     "mwsDomain": "mws-eu.amazonservices.com",
+    "imagesDomain": "images-eu.ssl-images-amazon.com",
     "vendorId": "A1UNQM1SR2CHM"
   },
   {
@@ -93,6 +104,7 @@
     "name": "India",
     "domain": "amazon.in",
     "mwsDomain": "mws.amazonservices.in",
+    "imagesDomain": "images-eu.ssl-images-amazon.com",
     "vendorId": null
   },
   {
@@ -101,6 +113,7 @@
     "name": "Australia",
     "domain": "amazon.com.au",
     "mwsDomain": "mws.amazonservices.com.au",
+    "imagesDomain": "images-fe.ssl-images-amazon.com",
     "vendorId": "ANEGB3WVEVKZB"
   },
   {
@@ -109,6 +122,7 @@
     "name": "Japan",
     "domain": "amazon.co.jp",
     "mwsDomain": "mws.amazonservices.jp",
+    "imagesDomain": "images-fe.ssl-images-amazon.com",
     "vendorId": "AN1VRQENFRJN5"
   },
   {
@@ -117,6 +131,7 @@
     "name": "China",
     "domain": "amazon.cn",
     "mwsDomain": "mws.amazonservices.com.cn",
+    "imagesDomain": "images-cn.ssl-images-amazon.com",
     "vendorId": "A3TEGLC21NOO5Y"
   }
 ]
