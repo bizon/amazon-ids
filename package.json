@@ -1,0 +1,29 @@
+{
+  "name": "@bizon/amazon-ids",
+  "version": "0.0.0",
+  "description": "Collection of Amazon identifiers",
+  "main": "index.js",
+  "repository": "https://github.com/bizon/amazon-ids",
+  "author": "Bertrand Marron <bertrand.marron@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "marketplace.json"
+  ],
+  "dependencies": {
+    "memoizee": "^0.4.14"
+  },
+  "devDependencies": {
+    "xo": "^0.24.0"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": 2
+  },
+  "keywords": [
+    "amazon",
+    "sellercentral",
+    "vendorcentral",
+    "marketplaces"
+  ]
+}

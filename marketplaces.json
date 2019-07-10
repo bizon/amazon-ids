@@ -1,0 +1,122 @@
+[
+  {
+    "code": "de",
+    "id": "A1PA6795UKMFR9",
+    "name": "Germany",
+    "domain": "amazon.de",
+    "mwsDomain": "mws-eu.amazonservices.com",
+    "vendorId": "A3JWKAKR8XB7XF"
+  },
+  {
+    "code": "es",
+    "id": "A1RKKUPIHCS9HS",
+    "name": "Spain",
+    "domain": "amazon.es",
+    "mwsDomain": "mws-eu.amazonservices.com",
+    "vendorId": "A1AT7YVPFBWXBL"
+  },
+  {
+    "code": "fr",
+    "id": "A13V1IB3VIYZZH",
+    "name": "France",
+    "domain": "amazon.fr",
+    "mwsDomain": "mws-eu.amazonservices.com",
+    "vendorId": "A1X6FK5RDHNB96"
+  },
+  {
+    "code": "it",
+    "id": "APJ6JRA9NG5V4",
+    "name": "Italy",
+    "domain": "amazon.it",
+    "mwsDomain": "mws-eu.amazonservices.com",
+    "vendorId": "A11IL2PNWYJU7H"
+  },
+  {
+    "code": "uk",
+    "id": "A1F83G8C2ARO7P",
+    "name": "United Kingdom",
+    "domain": "amazon.co.uk",
+    "mwsDomain": "mws-eu.amazonservices.com",
+    "vendorId": "A3P5ROKL5A1OLE"
+  },
+  {
+    "code": "ca",
+    "id": "A2EUQ1WTGCTBG2",
+    "name": "Canada",
+    "domain": "amazon.ca",
+    "mwsDomain": "mws.amazonservices.com",
+    "vendorId": "A3DWYIK6Y9EEQB"
+  },
+  {
+    "code": "mx",
+    "id": "A1AM78C64UM0Y8",
+    "name": "Mexico",
+    "domain": "amazon.com.mx",
+    "mwsDomain": "mws.amazonservices.com",
+    "vendorId": "AVDBXBAVVSXLQ"
+  },
+  {
+    "code": "us",
+    "id": "ATVPDKIKX0DER",
+    "name": "United States",
+    "domain": "amazon.com",
+    "mwsDomain": "mws.amazonservices.com",
+    "vendorId": "ATVPDKIKX0DER"
+  },
+  {
+    "code": "br",
+    "id": "A2Q3Y263D00KWC",
+    "name": "Brazil",
+    "domain": "amazon.com.br",
+    "mwsDomain": "mws.amazonservices.com",
+    "vendorId": "A1ZZFT5FULY4LN"
+  },
+  {
+    "code": "ae",
+    "id": "A2VIGQ35RCS4UG",
+    "name": "United Arab Emirates",
+    "domain": "amazon.ae",
+    "mwsDomain": "mws.amazonservices.ae",
+    "vendorId": "A2KKU8J8O8784X"
+  },
+  {
+    "code": "tr",
+    "id": "A33AVAJ2PDY3EV",
+    "name": "Turkey",
+    "domain": "amazon.com.tr",
+    "mwsDomain": "mws-eu.amazonservices.com",
+    "vendorId": "A1UNQM1SR2CHM"
+  },
+  {
+    "code": "in",
+    "id": "A21TJRUUN4KGV",
+    "name": "India",
+    "domain": "amazon.in",
+    "mwsDomain": "mws.amazonservices.in",
+    "vendorId": null
+  },
+  {
+    "code": "au",
+    "id": "A39IBJ37TRP1C6",
+    "name": "Australia",
+    "domain": "amazon.com.au",
+    "mwsDomain": "mws.amazonservices.com.au",
+    "vendorId": "ANEGB3WVEVKZB"
+  },
+  {
+    "code": "jp",
+    "id": "A1VC38T7YXB528",
+    "name": "Japan",
+    "domain": "amazon.co.jp",
+    "mwsDomain": "mws.amazonservices.jp",
+    "vendorId": "AN1VRQENFRJN5"
+  },
+  {
+    "code": "cn",
+    "id": "AAHKV2X7AFYLW",
+    "name": "China",
+    "domain": "amazon.cn",
+    "mwsDomain": "mws.amazonservices.com.cn",
+    "vendorId": "A3TEGLC21NOO5Y"
+  }
+]
