@@ -1,6 +1,6 @@
 # amazon-ids [![CircleCI](https://circleci.com/gh/bizon/amazon-ids.svg?style=svg)](https://circleci.com/gh/bizon/amazon-ids)
 
-> SDK for Amazon Marketplace Web Services
+> Collection of Amazon identifiers
 
 [![npm version](https://badgen.net/npm/v/@bizon/amazon-ids)](https://www.npmjs.com/package/@bizon/amazon-ids)
 [![XO code style](https://badgen.net/badge/code%20style/XO/cyan)](https://github.com/xojs/xo)
