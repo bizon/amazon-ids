@@ -9,7 +9,7 @@ exports.getMarketplaceById = memoize(id => {
 })
 
 exports.getMarketplaceByCode = memoize(code => {
-  return marketplaces.find(marketplace => marketplace.code === code)
+  return marketplaces.find(marketplace => marketplace.code === code.toLowerCase())
 })
 
 exports.getMarketplaceByDomain = memoize(domain => {

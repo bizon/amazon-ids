@@ -46,7 +46,7 @@ console.log(getMarketplaceById('A1AM78C64UM0Y8'))
 ```js
 const {getMarketplaceByCode} = require('@bizon/amazon-ids')
 
-console.log(getMarketplaceByCode('mx'))
+console.log(getMarketplaceByCode('MX'))
 
 /*
 { code: 'mx',
