@@ -59,7 +59,7 @@ console.log(getMarketplaceByCode('mx'))
 */
 ```
 
-### `getMarketplaceById(id)`
+### `getMarketplaceByDomain(domain)`
 
 ```js
 const {getMarketplaceByDomain} = require('@bizon/amazon-ids')
