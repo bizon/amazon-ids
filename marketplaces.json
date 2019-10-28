@@ -6,7 +6,8 @@
     "domain": "amazon.de",
     "mwsDomain": "mws-eu.amazonservices.com",
     "imagesDomain": "images-eu.ssl-images-amazon.com",
-    "vendorId": "A3JWKAKR8XB7XF"
+    "vendorId": "A3JWKAKR8XB7XF",
+    "multiChannelId": "A38D8NSA03LJTC"
   },
   {
     "code": "es",
@@ -15,7 +16,8 @@
     "domain": "amazon.es",
     "mwsDomain": "mws-eu.amazonservices.com",
     "imagesDomain": "images-eu.ssl-images-amazon.com",
-    "vendorId": "A1AT7YVPFBWXBL"
+    "vendorId": "A1AT7YVPFBWXBL",
+    "multiChannelId": "AFQLKURYRPEL8"
   },
   {
     "code": "fr",
@@ -24,7 +26,8 @@
     "domain": "amazon.fr",
     "mwsDomain": "mws-eu.amazonservices.com",
     "imagesDomain": "images-eu.ssl-images-amazon.com",
-    "vendorId": "A1X6FK5RDHNB96"
+    "vendorId": "A1X6FK5RDHNB96",
+    "multiChannelId": "A1ZFFQZ3HTUKT9"
   },
   {
     "code": "it",
@@ -33,7 +36,8 @@
     "domain": "amazon.it",
     "mwsDomain": "mws-eu.amazonservices.com",
     "imagesDomain": "images-eu.ssl-images-amazon.com",
-    "vendorId": "A11IL2PNWYJU7H"
+    "vendorId": "A11IL2PNWYJU7H",
+    "multiChannelId": "A62U237T8HV6N"
   },
   {
     "code": "uk",
@@ -42,7 +46,8 @@
     "domain": "amazon.co.uk",
     "mwsDomain": "mws-eu.amazonservices.com",
     "imagesDomain": "images-eu.ssl-images-amazon.com",
-    "vendorId": "A3P5ROKL5A1OLE"
+    "vendorId": "A3P5ROKL5A1OLE",
+    "multiChannelId": "AZMDEXL2RVFNN"
   },
   {
     "code": "ca",
@@ -51,7 +56,8 @@
     "domain": "amazon.ca",
     "mwsDomain": "mws.amazonservices.com",
     "imagesDomain": "images-na.ssl-images-amazon.com",
-    "vendorId": "A3DWYIK6Y9EEQB"
+    "vendorId": "A3DWYIK6Y9EEQB",
+    "multiChannelId": "A1MQXOICRS2Z7M"
   },
   {
     "code": "mx",
@@ -60,7 +66,8 @@
     "domain": "amazon.com.mx",
     "mwsDomain": "mws.amazonservices.com",
     "imagesDomain": "images-na.ssl-images-amazon.com",
-    "vendorId": "AVDBXBAVVSXLQ"
+    "vendorId": "AVDBXBAVVSXLQ",
+    "multiChannelId": "A3H6HPSLHAK3XG"
   },
   {
     "code": "us",
@@ -69,7 +76,8 @@
     "domain": "amazon.com",
     "mwsDomain": "mws.amazonservices.com",
     "imagesDomain": "images-na.ssl-images-amazon.com",
-    "vendorId": "ATVPDKIKX0DER"
+    "vendorId": "ATVPDKIKX0DER",
+    "multiChannelId": "A2ZV50J4W1RKNI"
   },
   {
     "code": "br",
@@ -96,7 +104,8 @@
     "domain": "amazon.com.tr",
     "mwsDomain": "mws-eu.amazonservices.com",
     "imagesDomain": "images-eu.ssl-images-amazon.com",
-    "vendorId": "A1UNQM1SR2CHM"
+    "vendorId": "A1UNQM1SR2CHM",
+    "multiChannelId": "A33AVAJ2PDY3EV"
   },
   {
     "code": "in",

@@ -37,11 +37,31 @@ console.log(getMarketplaceById('A1AM78C64UM0Y8'))
   domain: 'amazon.com.mx',
   mwsDomain: 'mws.amazonservices.com',
   imagesDomain: 'images-na.ssl-images-amazon.com',
-  vendorId: 'AVDBXBAVVSXLQ' }
+  vendorId: 'AVDBXBAVVSXLQ',
+  multiChannelId: 'A3H6HPSLHAK3XG' }
 */
 ```
 
-### `getMarketplaceByCode(id)`
+It’s also possible to find a marketplace by its multi-channel fulfilment identifier:
+
+```js
+const {getMarketplaceById} = require('@bizon/amazon-ids')
+
+console.log(getMarketplaceById('A3H6HPSLHAK3XG'))
+
+/*
+{ code: 'mx',
+  id: 'A1AM78C64UM0Y8',
+  name: 'Mexico',
+  domain: 'amazon.com.mx',
+  mwsDomain: 'mws.amazonservices.com',
+  imagesDomain: 'images-na.ssl-images-amazon.com',
+  vendorId: 'AVDBXBAVVSXLQ',
+  multiChannelId: 'A3H6HPSLHAK3XG' }
+*/
+```
+
+### `getMarketplaceByCode(code)`
 
 ```js
 const {getMarketplaceByCode} = require('@bizon/amazon-ids')
@@ -55,7 +75,8 @@ console.log(getMarketplaceByCode('MX'))
   domain: 'amazon.com.mx',
   mwsDomain: 'mws.amazonservices.com',
   imagesDomain: 'images-na.ssl-images-amazon.com',
-  vendorId: 'AVDBXBAVVSXLQ' }
+  vendorId: 'AVDBXBAVVSXLQ',
+  multiChannelId: 'A3H6HPSLHAK3XG' }
 */
 ```
 
@@ -73,7 +94,8 @@ console.log(getMarketplaceByDomain('Amazon.com.mx'))
   domain: 'amazon.com.mx',
   mwsDomain: 'mws.amazonservices.com',
   imagesDomain: 'images-na.ssl-images-amazon.com',
-  vendorId: 'AVDBXBAVVSXLQ' }
+  vendorId: 'AVDBXBAVVSXLQ',
+  multiChannelId: 'A3H6HPSLHAK3XG' }
 */
 ```
 
