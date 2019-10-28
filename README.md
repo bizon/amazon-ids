@@ -47,7 +47,7 @@ It’s also possible to find a marketplace by its multi-channel fulfilment ident
 ```js
 const {getMarketplaceById} = require('@bizon/amazon-ids')
 
-console.log(getMarketplaceById('A3H6HPSLHAK3XG'))
+console.log(getMarketplaceById('A3H6HPSLHAK3XG', true))
 
 /*
 { code: 'mx',
