@@ -15,3 +15,7 @@ exports.getMarketplaceByCode = memoize(code => {
 exports.getMarketplaceByDomain = memoize(domain => {
   return marketplaces.find(marketplace => marketplace.domain === domain.toLowerCase())
 })
+
+exports.getMarketplacesByMwsDomain = memoize(domain => {
+  return marketplaces.filter(marketplace => marketplace.mwsDomain === domain)
+})

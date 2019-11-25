@@ -99,6 +99,62 @@ console.log(getMarketplaceByDomain('Amazon.com.mx'))
 */
 ```
 
+```js
+const {getMarketplacesByMwsDomain} = require('@bizon/amazon-ids')
+
+console.log(getMarketplacesByMwsDomain('mws.amazonservices.com'))
+
+/*
+[ { code: 'ca',
+    id: 'A2EUQ1WTGCTBG2',
+    name: 'Canada',
+    region: 'na',
+    domain: 'amazon.ca',
+    mwsDomain: 'mws.amazonservices.com',
+    imagesDomain: 'images-na.ssl-images-amazon.com',
+    vendorId: 'A3DWYIK6Y9EEQB' },
+  { code: 'ca-non-amazon',
+    id: 'A1MQXOICRS2Z7M',
+    name: 'Canada - Non-Amazon',
+    region: 'na',
+    mwsDomain: 'mws.amazonservices.com' },
+  { code: 'mx',
+    id: 'A1AM78C64UM0Y8',
+    name: 'Mexico',
+    region: 'na',
+    domain: 'amazon.com.mx',
+    mwsDomain: 'mws.amazonservices.com',
+    imagesDomain: 'images-na.ssl-images-amazon.com',
+    vendorId: 'AVDBXBAVVSXLQ' },
+  { code: 'mx-non-amazon',
+    id: 'A3H6HPSLHAK3XG',
+    name: 'Mexico - Non-Amazon',
+    region: 'na',
+    mwsDomain: 'mws.amazonservices.com' },
+  { code: 'us',
+    id: 'ATVPDKIKX0DER',
+    name: 'United States',
+    region: 'na',
+    domain: 'amazon.com',
+    mwsDomain: 'mws.amazonservices.com',
+    imagesDomain: 'images-na.ssl-images-amazon.com',
+    vendorId: 'ATVPDKIKX0DER' },
+  { code: 'us-non-amazon',
+    id: 'A2ZV50J4W1RKNI',
+    name: 'United States - Non-Amazon',
+    region: 'na',
+    mwsDomain: 'mws.amazonservices.com' },
+  { code: 'br',
+    id: 'A2Q3Y263D00KWC',
+    name: 'Brazil',
+    region: 'na',
+    domain: 'amazon.com.br',
+    mwsDomain: 'mws.amazonservices.com',
+    imagesDomain: 'images-na.ssl-images-amazon.com',
+    vendorId: 'A1ZZFT5FULY4LN' } ]
+*/
+```
+
 ## License
 
 MIT
