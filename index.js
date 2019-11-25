@@ -4,15 +4,7 @@ const marketplaces = require('./marketplaces.json')
 
 exports.marketplaces = marketplaces
 
-exports.getMarketplaceById = memoize((id, includeMultiChannel) => {
-  if (includeMultiChannel) {
-    return marketplaces.find(
-      marketplace => marketplace.id === id || (
-        marketplace.multiChannelId && marketplace.multiChannelId === id
-      )
-    )
-  }
-
+exports.getMarketplaceById = memoize(id => {
   return marketplaces.find(marketplace => marketplace.id === id)
 })
 
@@ -22,4 +14,8 @@ exports.getMarketplaceByCode = memoize(code => {
 
 exports.getMarketplaceByDomain = memoize(domain => {
   return marketplaces.find(marketplace => marketplace.domain === domain.toLowerCase())
+})
+
+exports.getMarketplacesByMwsDomain = memoize(domain => {
+  return marketplaces.filter(marketplace => marketplace.mwsDomain === domain)
 })
