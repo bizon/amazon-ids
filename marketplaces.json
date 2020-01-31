@@ -95,11 +95,29 @@
     "vendorId": "A1UNQM1SR2CHM"
   },
   {
-    "code": "tr-non-amazon",
-    "id": "A33AVAJ2PDY3EV",
-    "name": "Turkey - Non-Amazon",
+    "code": "eg",
+    "id": "ARBP9OOSHTCHU",
+    "name": "Egypt",
     "region": "eu",
-    "mwsDomain": "mws-eu.amazonservices.com"
+    "mwsDomain": "mws-eu.amazonservices.com",
+    "imagesDomain": "images-eu.ssl-images-amazon.com"
+  },
+  {
+    "code": "sa",
+    "id": "A17E79C6D8DWNP",
+    "name": "Saudi Arabia",
+    "region": "eu",
+    "domain": "amazon.com.sa",
+    "mwsDomain": "mws-eu.amazonservices.com",
+    "imagesDomain": "images-eu.ssl-images-amazon.com"
+  },
+  {
+    "code": "nl",
+    "id": "A1805IZSGTT6HS",
+    "name": "Netherlands",
+    "region": "eu",
+    "domain": "amazon.nl",
+    "imagesDomain": "images-eu.ssl-images-amazon.com"
   },
   {
     "code": "ca",
@@ -179,8 +197,7 @@
     "region": "eu",
     "domain": "amazon.in",
     "mwsDomain": "mws.amazonservices.in",
-    "imagesDomain": "images-eu.ssl-images-amazon.com",
-    "vendorId": null
+    "imagesDomain": "images-eu.ssl-images-amazon.com"
   },
   {
     "code": "au",
@@ -203,13 +220,12 @@
     "vendorId": "AN1VRQENFRJN5"
   },
   {
-    "code": "cn",
-    "id": "AAHKV2X7AFYLW",
-    "name": "China",
+    "code": "sg",
+    "id": "A19VAU5U5O7RUS",
+    "name": "Singapore",
     "region": "fe",
-    "domain": "amazon.cn",
-    "mwsDomain": "mws.amazonservices.com.cn",
-    "imagesDomain": "images-cn.ssl-images-amazon.com",
-    "vendorId": "A3TEGLC21NOO5Y"
+    "domain": "amazon.sg",
+    "mwsDomain": "mws-fe.amazonservices.com",
+    "imagesDomain": "images-fe.ssl-images-amazon.com"
   }
 ]
