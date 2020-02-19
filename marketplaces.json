@@ -13,8 +13,7 @@
     "code": "de-non-amazon",
     "id": "A38D8NSA03LJTC",
     "name": "Germany - Non-Amazon",
-    "region": "eu",
-    "mwsDomain": "mws-eu.amazonservices.com"
+    "region": "eu"
   },
   {
     "code": "es",
@@ -30,8 +29,7 @@
     "code": "es-non-amazon",
     "id": "AFQLKURYRPEL8",
     "name": "Spain - Non-Amazon",
-    "region": "eu",
-    "mwsDomain": "mws-eu.amazonservices.com"
+    "region": "eu"
   },
   {
     "code": "fr",
@@ -47,8 +45,7 @@
     "code": "fr-non-amazon",
     "id": "A1ZFFQZ3HTUKT9",
     "name": "France - Non-Amazon",
-    "region": "eu",
-    "mwsDomain": "mws-eu.amazonservices.com"
+    "region": "eu"
   },
   {
     "code": "it",
@@ -64,8 +61,7 @@
     "code": "it-non-amazon",
     "id": "A62U237T8HV6N",
     "name": "Italy - Non-Amazon",
-    "region": "eu",
-    "mwsDomain": "mws-eu.amazonservices.com"
+    "region": "eu"
   },
   {
     "code": "uk",
@@ -81,8 +77,7 @@
     "code": "uk-non-amazon",
     "id": "AZMDEXL2RVFNN",
     "name": "United Kingdom - Non-Amazon",
-    "region": "eu",
-    "mwsDomain": "mws-eu.amazonservices.com"
+    "region": "eu"
   },
   {
     "code": "tr",
@@ -133,8 +128,7 @@
     "code": "ca-non-amazon",
     "id": "A1MQXOICRS2Z7M",
     "name": "Canada - Non-Amazon",
-    "region": "na",
-    "mwsDomain": "mws.amazonservices.com"
+    "region": "na"
   },
   {
     "code": "mx",
@@ -150,8 +144,7 @@
     "code": "mx-non-amazon",
     "id": "A3H6HPSLHAK3XG",
     "name": "Mexico - Non-Amazon",
-    "region": "na",
-    "mwsDomain": "mws.amazonservices.com"
+    "region": "na"
   },
   {
     "code": "us",
@@ -167,8 +160,7 @@
     "code": "us-non-amazon",
     "id": "A2ZV50J4W1RKNI",
     "name": "United States - Non-Amazon",
-    "region": "na",
-    "mwsDomain": "mws.amazonservices.com"
+    "region": "na"
   },
   {
     "code": "br",
