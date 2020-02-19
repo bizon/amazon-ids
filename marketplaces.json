@@ -112,6 +112,7 @@
     "name": "Netherlands",
     "region": "eu",
     "domain": "amazon.nl",
+    "mwsDomain": "mws-eu.amazonservices.com",
     "imagesDomain": "images-eu.ssl-images-amazon.com"
   },
   {
