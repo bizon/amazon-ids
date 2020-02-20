@@ -6,6 +6,7 @@
     "region": "eu",
     "domain": "amazon.de",
     "mwsDomain": "mws-eu.amazonservices.com",
+    "advertisingApiDomain": "advertising-api-eu.amazon.com",
     "imagesDomain": "images-eu.ssl-images-amazon.com",
     "vendorId": "A3JWKAKR8XB7XF"
   },
@@ -22,6 +23,7 @@
     "region": "eu",
     "domain": "amazon.es",
     "mwsDomain": "mws-eu.amazonservices.com",
+    "advertisingApiDomain": "advertising-api-eu.amazon.com",
     "imagesDomain": "images-eu.ssl-images-amazon.com",
     "vendorId": "A1AT7YVPFBWXBL"
   },
@@ -38,6 +40,7 @@
     "region": "eu",
     "domain": "amazon.fr",
     "mwsDomain": "mws-eu.amazonservices.com",
+    "advertisingApiDomain": "advertising-api-eu.amazon.com",
     "imagesDomain": "images-eu.ssl-images-amazon.com",
     "vendorId": "A1X6FK5RDHNB96"
   },
@@ -54,6 +57,7 @@
     "region": "eu",
     "domain": "amazon.it",
     "mwsDomain": "mws-eu.amazonservices.com",
+    "advertisingApiDomain": "advertising-api-eu.amazon.com",
     "imagesDomain": "images-eu.ssl-images-amazon.com",
     "vendorId": "A11IL2PNWYJU7H"
   },
@@ -70,6 +74,7 @@
     "region": "eu",
     "domain": "amazon.co.uk",
     "mwsDomain": "mws-eu.amazonservices.com",
+    "advertisingApiDomain": "advertising-api-eu.amazon.com",
     "imagesDomain": "images-eu.ssl-images-amazon.com",
     "vendorId": "A3P5ROKL5A1OLE"
   },
@@ -122,6 +127,7 @@
     "region": "na",
     "domain": "amazon.ca",
     "mwsDomain": "mws.amazonservices.ca",
+    "advertisingApiDomain": "advertising-api.amazon.com",
     "imagesDomain": "images-na.ssl-images-amazon.com",
     "vendorId": "A3DWYIK6Y9EEQB"
   },
@@ -154,6 +160,7 @@
     "region": "na",
     "domain": "amazon.com",
     "mwsDomain": "mws.amazonservices.com",
+    "advertisingApiDomain": "advertising-api.amazon.com",
     "imagesDomain": "images-na.ssl-images-amazon.com",
     "vendorId": "ATVPDKIKX0DER"
   },
@@ -180,6 +187,7 @@
     "region": "eu",
     "domain": "amazon.ae",
     "mwsDomain": "mws.amazonservices.ae",
+    "advertisingApiDomain": "advertising-api-eu.amazon.com",
     "imagesDomain": "images-eu.ssl-images-amazon.com",
     "vendorId": "A2KKU8J8O8784X"
   },
@@ -199,6 +207,7 @@
     "region": "fe",
     "domain": "amazon.com.au",
     "mwsDomain": "mws.amazonservices.com.au",
+    "advertisingApiDomain": "advertising-api-fe.amazon.com",
     "imagesDomain": "images-fe.ssl-images-amazon.com",
     "vendorId": "ANEGB3WVEVKZB"
   },
@@ -209,6 +218,7 @@
     "region": "fe",
     "domain": "amazon.co.jp",
     "mwsDomain": "mws.amazonservices.jp",
+    "advertisingApiDomain": "advertising-api-fe.amazon.com",
     "imagesDomain": "images-fe.ssl-images-amazon.com",
     "vendorId": "AN1VRQENFRJN5"
   },
