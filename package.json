@@ -1,6 +1,6 @@
 {
   "name": "@bizon/amazon-ids",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "Collection of Amazon identifiers",
   "main": "index.js",
   "repository": "https://github.com/bizon/amazon-ids",
