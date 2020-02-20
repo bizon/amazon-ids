@@ -96,7 +96,7 @@ getMarketplaceByDomain('Amazon.com.mx')
   name: 'Mexico',
   region: 'na',
   domain: 'amazon.com.mx',
-  mwsDomain: 'mws.amazonservices.com',
+  mwsDomain: 'mws.amazonservices.com.mx',
   imagesDomain: 'images-na.ssl-images-amazon.com',
   vendorId: 'AVDBXBAVVSXLQ'
 }
@@ -110,16 +110,6 @@ getMarketplacesByMwsDomain('mws.amazonservices.com')
 
 /*
 [
-  {
-    code: 'mx',
-    id: 'A1AM78C64UM0Y8',
-    name: 'Mexico',
-    region: 'na',
-    domain: 'amazon.com.mx',
-    mwsDomain: 'mws.amazonservices.com',
-    imagesDomain: 'images-na.ssl-images-amazon.com',
-    vendorId: 'AVDBXBAVVSXLQ'
-  },
   {
     code: 'us',
     id: 'ATVPDKIKX0DER',

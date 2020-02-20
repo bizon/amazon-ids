@@ -143,7 +143,7 @@
     "name": "Mexico",
     "region": "na",
     "domain": "amazon.com.mx",
-    "mwsDomain": "mws.amazonservices.com",
+    "mwsDomain": "mws.amazonservices.com.mx",
     "imagesDomain": "images-na.ssl-images-amazon.com",
     "vendorId": "AVDBXBAVVSXLQ"
   },
