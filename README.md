@@ -28,36 +28,37 @@ for (const marketplace of marketplaces) {
 ```js
 const {getMarketplaceById} = require('@bizon/amazon-ids')
 
-console.log(getMarketplaceById('A1AM78C64UM0Y8'))
+console.log(getMarketplaceById('ATVPDKIKX0DER'))
 
 /*
-{ code: 'mx',
-  id: 'A1AM78C64UM0Y8',
-  name: 'Mexico',
+{
+  code: 'us',
+  id: 'ATVPDKIKX0DER',
+  name: 'United States',
   region: 'na',
-  domain: 'amazon.com.mx',
+  domain: 'amazon.com',
   mwsDomain: 'mws.amazonservices.com',
+  advertisingApiDomain: 'advertising-api.amazon.com',
   imagesDomain: 'images-na.ssl-images-amazon.com',
-  vendorId: 'AVDBXBAVVSXLQ' }
+  vendorId: 'ATVPDKIKX0DER'
+}
 */
 ```
 
-It’s also possible to find a marketplace by its multi-channel fulfilment identifier:
+It’s also possible to find multi-channel marketplaces:
 
 ```js
 const {getMarketplaceById} = require('@bizon/amazon-ids')
 
-console.log(getMarketplaceById('A3H6HPSLHAK3XG', true))
+console.log(getMarketplaceById('A2ZV50J4W1RKNI'))
 
 /*
-{ code: 'mx',
-  id: 'A1AM78C64UM0Y8',
-  name: 'Mexico',
-  region: 'na',
-  domain: 'amazon.com.mx',
-  mwsDomain: 'mws.amazonservices.com',
-  imagesDomain: 'images-na.ssl-images-amazon.com',
-  vendorId: 'AVDBXBAVVSXLQ' }
+{
+  code: 'us-non-amazon',
+  id: 'A2ZV50J4W1RKNI',
+  name: 'United States - Non-Amazon',
+  region: 'na'
+}
 */
 ```
 
@@ -66,17 +67,20 @@ console.log(getMarketplaceById('A3H6HPSLHAK3XG', true))
 ```js
 const {getMarketplaceByCode} = require('@bizon/amazon-ids')
 
-console.log(getMarketplaceByCode('MX'))
+console.log(getMarketplaceByCode('DE'))
 
 /*
-{ code: 'mx',
-  id: 'A1AM78C64UM0Y8',
-  name: 'Mexico',
-  region: 'na',
-  domain: 'amazon.com.mx',
-  mwsDomain: 'mws.amazonservices.com',
-  imagesDomain: 'images-na.ssl-images-amazon.com',
-  vendorId: 'AVDBXBAVVSXLQ' }
+{
+  code: 'de',
+  id: 'A1PA6795UKMFR9',
+  name: 'Germany',
+  region: 'eu',
+  domain: 'amazon.de',
+  mwsDomain: 'mws-eu.amazonservices.com',
+  advertisingApiDomain: 'advertising-api-eu.amazon.com',
+  imagesDomain: 'images-eu.ssl-images-amazon.com',
+  vendorId: 'A3JWKAKR8XB7XF'
+}
 */
 ```
 
@@ -88,14 +92,16 @@ const {getMarketplaceByDomain} = require('@bizon/amazon-ids')
 console.log(getMarketplaceByDomain('Amazon.com.mx'))
 
 /*
-{ code: 'mx',
+{
+  code: 'mx',
   id: 'A1AM78C64UM0Y8',
   name: 'Mexico',
   region: 'na',
   domain: 'amazon.com.mx',
   mwsDomain: 'mws.amazonservices.com',
   imagesDomain: 'images-na.ssl-images-amazon.com',
-  vendorId: 'AVDBXBAVVSXLQ' }
+  vendorId: 'AVDBXBAVVSXLQ'
+}
 */
 ```
 
@@ -105,53 +111,39 @@ const {getMarketplacesByMwsDomain} = require('@bizon/amazon-ids')
 console.log(getMarketplacesByMwsDomain('mws.amazonservices.com'))
 
 /*
-[ { code: 'ca',
-    id: 'A2EUQ1WTGCTBG2',
-    name: 'Canada',
-    region: 'na',
-    domain: 'amazon.ca',
-    mwsDomain: 'mws.amazonservices.com',
-    imagesDomain: 'images-na.ssl-images-amazon.com',
-    vendorId: 'A3DWYIK6Y9EEQB' },
-  { code: 'ca-non-amazon',
-    id: 'A1MQXOICRS2Z7M',
-    name: 'Canada - Non-Amazon',
-    region: 'na',
-    mwsDomain: 'mws.amazonservices.com' },
-  { code: 'mx',
+[
+  {
+    code: 'mx',
     id: 'A1AM78C64UM0Y8',
     name: 'Mexico',
     region: 'na',
     domain: 'amazon.com.mx',
     mwsDomain: 'mws.amazonservices.com',
     imagesDomain: 'images-na.ssl-images-amazon.com',
-    vendorId: 'AVDBXBAVVSXLQ' },
-  { code: 'mx-non-amazon',
-    id: 'A3H6HPSLHAK3XG',
-    name: 'Mexico - Non-Amazon',
-    region: 'na',
-    mwsDomain: 'mws.amazonservices.com' },
-  { code: 'us',
+    vendorId: 'AVDBXBAVVSXLQ'
+  },
+  {
+    code: 'us',
     id: 'ATVPDKIKX0DER',
     name: 'United States',
     region: 'na',
     domain: 'amazon.com',
     mwsDomain: 'mws.amazonservices.com',
+    advertisingApiDomain: 'advertising-api.amazon.com',
     imagesDomain: 'images-na.ssl-images-amazon.com',
-    vendorId: 'ATVPDKIKX0DER' },
-  { code: 'us-non-amazon',
-    id: 'A2ZV50J4W1RKNI',
-    name: 'United States - Non-Amazon',
-    region: 'na',
-    mwsDomain: 'mws.amazonservices.com' },
-  { code: 'br',
+    vendorId: 'ATVPDKIKX0DER'
+  },
+  {
+    code: 'br',
     id: 'A2Q3Y263D00KWC',
     name: 'Brazil',
     region: 'na',
     domain: 'amazon.com.br',
     mwsDomain: 'mws.amazonservices.com',
     imagesDomain: 'images-na.ssl-images-amazon.com',
-    vendorId: 'A1ZZFT5FULY4LN' } ]
+    vendorId: 'A1ZZFT5FULY4LN'
+  }
+]
 */
 ```
 
