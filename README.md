@@ -19,7 +19,7 @@ npm install --save @bizon/amazon-ids
 const {marketplaces} = require('@bizon/amazon-ids')
 
 for (const marketplace of marketplaces) {
-  console.log(marketplace)
+  // console.log(marketplace)
 }
 ```
 
@@ -28,7 +28,7 @@ for (const marketplace of marketplaces) {
 ```js
 const {getMarketplaceById} = require('@bizon/amazon-ids')
 
-console.log(getMarketplaceById('ATVPDKIKX0DER'))
+getMarketplaceById('ATVPDKIKX0DER')
 
 /*
 {
@@ -48,9 +48,7 @@ console.log(getMarketplaceById('ATVPDKIKX0DER'))
 It’s also possible to find multi-channel marketplaces:
 
 ```js
-const {getMarketplaceById} = require('@bizon/amazon-ids')
-
-console.log(getMarketplaceById('A2ZV50J4W1RKNI'))
+getMarketplaceById('A2ZV50J4W1RKNI')
 
 /*
 {
@@ -67,7 +65,7 @@ console.log(getMarketplaceById('A2ZV50J4W1RKNI'))
 ```js
 const {getMarketplaceByCode} = require('@bizon/amazon-ids')
 
-console.log(getMarketplaceByCode('DE'))
+getMarketplaceByCode('DE')
 
 /*
 {
@@ -89,7 +87,7 @@ console.log(getMarketplaceByCode('DE'))
 ```js
 const {getMarketplaceByDomain} = require('@bizon/amazon-ids')
 
-console.log(getMarketplaceByDomain('Amazon.com.mx'))
+getMarketplaceByDomain('Amazon.com.mx')
 
 /*
 {
@@ -108,7 +106,7 @@ console.log(getMarketplaceByDomain('Amazon.com.mx'))
 ```js
 const {getMarketplacesByMwsDomain} = require('@bizon/amazon-ids')
 
-console.log(getMarketplacesByMwsDomain('mws.amazonservices.com'))
+getMarketplacesByMwsDomain('mws.amazonservices.com')
 
 /*
 [
