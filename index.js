@@ -36,7 +36,11 @@ exports.getMarketplacesByMwsDomain = memoize(domain => {
 })
 
 exports.getMarketplacesByMwsRegion = memoize(mwsRegion => {
-  return this.getMarketplacesByMwsDomain(
-    mwsRegionDomains[String(mwsRegion).toLowerCase()]
-  )
+  const mwsDomain = mwsRegionDomains[String(mwsRegion).toLowerCase()]
+
+  if (!mwsDomain) {
+    return []
+  }
+
+  return this.getMarketplacesByMwsDomain(mwsDomain)
 })
