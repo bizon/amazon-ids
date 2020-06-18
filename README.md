@@ -103,10 +103,48 @@ getMarketplaceByDomain('Amazon.com.mx')
 */
 ```
 
+### `getMarketplacesByMwsDomain(domain)`
+
 ```js
 const {getMarketplacesByMwsDomain} = require('@bizon/amazon-ids')
 
 getMarketplacesByMwsDomain('mws.amazonservices.com')
+
+/*
+[
+  {
+    code: 'us',
+    id: 'ATVPDKIKX0DER',
+    name: 'United States',
+    region: 'na',
+    domain: 'amazon.com',
+    mwsDomain: 'mws.amazonservices.com',
+    advertisingApiDomain: 'advertising-api.amazon.com',
+    imagesDomain: 'images-na.ssl-images-amazon.com',
+    vendorId: 'ATVPDKIKX0DER'
+  },
+  {
+    code: 'br',
+    id: 'A2Q3Y263D00KWC',
+    name: 'Brazil',
+    region: 'na',
+    domain: 'amazon.com.br',
+    mwsDomain: 'mws.amazonservices.com',
+    imagesDomain: 'images-na.ssl-images-amazon.com',
+    vendorId: 'A1ZZFT5FULY4LN'
+  }
+]
+*/
+```
+
+### `getMarketplacesByMwsRegion(mwsRegion)`
+
+MWS Regions is a concept introduced in [@bizon/mws-sdk](https://github.com/bizon/mws-sdk) – see [its readme](https://github.com/bizon/mws-sdk#region-and-marketplaces) to learn more about it.
+
+```js
+const {getMarketplacesByMwsRegion} = require('@bizon/amazon-ids')
+
+getMarketplacesByMwsRegion('na')
 
 /*
 [
