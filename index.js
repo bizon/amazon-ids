@@ -2,6 +2,21 @@ const memoize = require('memoizee')
 
 const marketplaces = require('./marketplaces.json')
 
+const mwsRegionDomains = {
+  // Generic MWS regions:
+  na: 'mws.amazonservices.com',
+  eu: 'mws-eu.amazonservices.com',
+  fe: 'mws-fe.amazonservices.com',
+
+  // Country specific MWS regions:
+  ca: 'mws.amazonservices.ca',
+  mx: 'mws.amazonservices.com.mx',
+  ae: 'mws.amazonservices.ae',
+  in: 'mws.amazonservices.in',
+  jp: 'mws.amazonservices.jp',
+  au: 'mws.amazonservices.com.au'
+}
+
 exports.marketplaces = marketplaces
 
 exports.getMarketplaceById = memoize(id => {
@@ -18,4 +33,10 @@ exports.getMarketplaceByDomain = memoize(domain => {
 
 exports.getMarketplacesByMwsDomain = memoize(domain => {
   return marketplaces.filter(marketplace => marketplace.mwsDomain === domain)
+})
+
+exports.getMarketplacesByMwsRegion = memoize(mwsRegion => {
+  return this.getMarketplacesByMwsDomain(
+    mwsRegionDomains[String(mwsRegion).toLowerCase()]
+  )
 })
