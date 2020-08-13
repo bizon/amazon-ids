@@ -123,6 +123,15 @@
     "vendorId": "A17D2BRD4YMT0X"
   },
   {
+    "code": "se",
+    "id": "A2NODRKZP88ZB9",
+    "name": "Sweden",
+    "region": "eu",
+    "domain": "amazon.se",
+    "mwsDomain": "mws-eu.amazonservices.com",
+    "imagesDomain": "images-eu.ssl-images-amazon.com"
+  },
+  {
     "code": "ca",
     "id": "A2EUQ1WTGCTBG2",
     "name": "Canada",
