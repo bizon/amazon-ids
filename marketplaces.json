@@ -129,7 +129,8 @@
     "region": "eu",
     "domain": "amazon.se",
     "mwsDomain": "mws-eu.amazonservices.com",
-    "imagesDomain": "images-eu.ssl-images-amazon.com"
+    "imagesDomain": "images-eu.ssl-images-amazon.com",
+    "vendorId": "ANU9KP01APNAG"
   },
   {
     "code": "pl",
