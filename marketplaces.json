@@ -132,6 +132,15 @@
     "imagesDomain": "images-eu.ssl-images-amazon.com"
   },
   {
+    "code": "pl",
+    "id": "A1C3SOZRARQ6R3",
+    "name": "Poland",
+    "region": "eu",
+    "domain": "amazon.pl",
+    "mwsDomain": "mws-eu.amazonservices.com",
+    "imagesDomain": "images-eu.ssl-images-amazon.com"
+  },
+  {
     "code": "ca",
     "id": "A2EUQ1WTGCTBG2",
     "name": "Canada",
