@@ -6,6 +6,9 @@
   "repository": "https://github.com/bizon/amazon-ids",
   "author": "Bertrand Marron <bertrand.marron@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "files": [
     "index.js",
     "marketplaces.json"
@@ -14,16 +17,39 @@
     "memoizee": "^0.4.14"
   },
   "devDependencies": {
+    "jest": "^27.0.1",
     "xo": "^0.36.1"
-  },
-  "xo": {
-    "semicolon": false,
-    "space": 2
   },
   "keywords": [
     "amazon",
     "sellercentral",
     "vendorcentral",
     "marketplaces"
-  ]
+  ],
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [
+      "<rootDir>/__tests__/**/*.js"
+    ],
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "index.js"
+    ],
+    "coverageReporters": [
+      "lcov",
+      "text-summary"
+    ]
+  },
+  "xo": {
+    "semicolon": false,
+    "space": 2,
+    "overrides": [
+      {
+        "files": "__tests__/**/*.js",
+        "envs": [
+          "jest"
+        ]
+      }
+    ]
+  }
 }
