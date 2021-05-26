@@ -24,11 +24,19 @@ exports.getMarketplaceById = memoize(id => {
 })
 
 exports.getMarketplaceByCode = memoize(code => {
-  return marketplaces.find(marketplace => marketplace.code === code.toLowerCase())
+  code = code.toLowerCase()
+
+  return marketplaces.find(marketplace => marketplace.code === code)
 })
 
 exports.getMarketplaceByDomain = memoize(domain => {
-  return marketplaces.find(marketplace => marketplace.domain === domain.toLowerCase())
+  domain = domain.toLowerCase()
+
+  if (domain.startsWith('www.')) {
+    domain = domain.slice(4)
+  }
+
+  return marketplaces.find(marketplace => marketplace.domain === domain)
 })
 
 exports.getMarketplacesByMwsDomain = memoize(domain => {
