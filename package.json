@@ -11,8 +11,10 @@
   },
   "files": [
     "index.js",
+    "index.d.ts",
     "marketplaces.json"
   ],
+  "types": "index.d.ts",
   "dependencies": {
     "memoizee": "^0.4.14"
   },
