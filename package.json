@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "jest": "^27.0.1",
-    "xo": "^0.39.1"
+    "xo": "^0.42.0"
   },
   "keywords": [
     "amazon",
