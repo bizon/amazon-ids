@@ -1,4 +1,4 @@
-# amazon-ids [![CircleCI](https://circleci.com/gh/bizon/amazon-ids.svg?style=svg)](https://circleci.com/gh/bizon/amazon-ids)
+# amazon-ids
 
 > Collection of Amazon identifiers
 
