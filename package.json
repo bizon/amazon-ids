@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "jest": "^27.0.1",
-    "xo": "^0.39.1"
+    "xo": "^0.44.0"
   },
   "keywords": [
     "amazon",
@@ -45,6 +45,9 @@
   "xo": {
     "semicolon": false,
     "space": 2,
+    "rules": {
+      "unicorn/prefer-module": "off"
+    },
     "overrides": [
       {
         "files": "__tests__/**/*.js",
