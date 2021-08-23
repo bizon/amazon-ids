@@ -1,5 +1,5 @@
 const {
-  getMarketplaceByDomain
+  getMarketplaceByDomain,
 } = require('..')
 
 describe('index', () => {

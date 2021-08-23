@@ -14,14 +14,12 @@ const mwsRegionDomains = {
   ae: 'mws.amazonservices.ae',
   in: 'mws.amazonservices.in',
   jp: 'mws.amazonservices.jp',
-  au: 'mws.amazonservices.com.au'
+  au: 'mws.amazonservices.com.au',
 }
 
 exports.marketplaces = marketplaces
 
-exports.getMarketplaceById = memoize(id => {
-  return marketplaces.find(marketplace => marketplace.id === id)
-})
+exports.getMarketplaceById = memoize(id => marketplaces.find(marketplace => marketplace.id === id))
 
 exports.getMarketplaceByCode = memoize(code => {
   code = code.toLowerCase()
@@ -39,9 +37,7 @@ exports.getMarketplaceByDomain = memoize(domain => {
   return marketplaces.find(marketplace => marketplace.domain === domain)
 })
 
-exports.getMarketplacesByMwsDomain = memoize(domain => {
-  return marketplaces.filter(marketplace => marketplace.mwsDomain === domain)
-})
+exports.getMarketplacesByMwsDomain = memoize(domain => marketplaces.filter(marketplace => marketplace.mwsDomain === domain))
 
 exports.getMarketplacesByMwsRegion = memoize(mwsRegion => {
   const mwsDomain = mwsRegionDomains[String(mwsRegion).toLowerCase()]

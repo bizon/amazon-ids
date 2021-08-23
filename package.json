@@ -45,6 +45,9 @@
   "xo": {
     "semicolon": false,
     "space": 2,
+    "rules": {
+      "unicorn/prefer-module": "off"
+    },
     "overrides": [
       {
         "files": "__tests__/**/*.js",
