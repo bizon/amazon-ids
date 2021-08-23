@@ -19,7 +19,10 @@
     "memoizee": "^0.4.14"
   },
   "devDependencies": {
+    "@semantic-release/git": "^9.0.0",
     "jest": "^27.0.1",
+    "jest-junit": "^12.2.0",
+    "semantic-release": "^17.4.5",
     "xo": "^0.44.0"
   },
   "keywords": [
@@ -55,6 +58,20 @@
           "jest"
         ]
       }
+    ]
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/github",
+      "@semantic-release/npm",
+      [
+        "@semantic-release/git",
+        {
+          "message": "chore(release): ${nextRelease.gitTag}"
+        }
+      ]
     ]
   }
 }
