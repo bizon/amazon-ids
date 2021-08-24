@@ -345,6 +345,13 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
+"@bizon/semantic-release-config@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@bizon/semantic-release-config/-/semantic-release-config-1.0.1.tgz#d030f6bccf29b6139823864aa4b147836e5936b2"
+  integrity sha512-zCaLyz1b4NmLR+FPTTcoSCXgeWreBEbfItWmf18Swn2GGYUigfvly/SzPfcydQEO/mzX8oCnp8j589QRiZW+Gw==
+  dependencies:
+    "@semantic-release/git" "^9.0.0"
+
 "@eslint/eslintrc@^0.4.3":
   version "0.4.3"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-0.4.3.tgz#9e42981ef035beb3dd49add17acb96e8ff6f394c"
