@@ -1,4 +1,4 @@
-const memoize = require('memoizee')
+const mem = require('mem')
 
 const marketplaces = require('./marketplaces.json')
 
@@ -19,15 +19,15 @@ const mwsRegionDomains = {
 
 exports.marketplaces = marketplaces
 
-exports.getMarketplaceById = memoize(id => marketplaces.find(marketplace => marketplace.id === id))
+exports.getMarketplaceById = mem(id => marketplaces.find(marketplace => marketplace.id === id))
 
-exports.getMarketplaceByCode = memoize(code => {
+exports.getMarketplaceByCode = mem(code => {
   code = code.toLowerCase()
 
   return marketplaces.find(marketplace => marketplace.code === code)
 })
 
-exports.getMarketplaceByDomain = memoize(domain => {
+exports.getMarketplaceByDomain = mem(domain => {
   domain = domain.toLowerCase()
 
   if (domain.startsWith('www.')) {
@@ -37,9 +37,9 @@ exports.getMarketplaceByDomain = memoize(domain => {
   return marketplaces.find(marketplace => marketplace.domain === domain)
 })
 
-exports.getMarketplacesByMwsDomain = memoize(domain => marketplaces.filter(marketplace => marketplace.mwsDomain === domain))
+exports.getMarketplacesByMwsDomain = mem(domain => marketplaces.filter(marketplace => marketplace.mwsDomain === domain))
 
-exports.getMarketplacesByMwsRegion = memoize(mwsRegion => {
+exports.getMarketplacesByMwsRegion = mem(mwsRegion => {
   const mwsDomain = mwsRegionDomains[String(mwsRegion).toLowerCase()]
 
   if (!mwsDomain) {
