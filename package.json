@@ -16,7 +16,7 @@
   ],
   "types": "index.d.ts",
   "dependencies": {
-    "memoizee": "^0.4.14"
+    "mem": "^8.1.1"
   },
   "devDependencies": {
     "@bizon/semantic-release-config": "^1.0.1",
