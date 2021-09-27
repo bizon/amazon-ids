@@ -345,12 +345,12 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@bizon/semantic-release-config@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@bizon/semantic-release-config/-/semantic-release-config-1.0.1.tgz#d030f6bccf29b6139823864aa4b147836e5936b2"
-  integrity sha512-zCaLyz1b4NmLR+FPTTcoSCXgeWreBEbfItWmf18Swn2GGYUigfvly/SzPfcydQEO/mzX8oCnp8j589QRiZW+Gw==
+"@bizon/semantic-release-config@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@bizon/semantic-release-config/-/semantic-release-config-1.1.0.tgz#b25aedd3e3ef264305e08f490fb75950747f2689"
+  integrity sha512-wE/f5Et8HOxco9cKYV0mqB7Cl8fisBFMrJ2QcY/BfQtusW7m9PjmLtKvrLd9Jhjr4KupWkkpUHiGWHBeuBap7w==
   dependencies:
-    "@semantic-release/git" "^9.0.0"
+    "@semantic-release/git" "^10.0.0"
 
 "@eslint/eslintrc@^0.4.3":
   version "0.4.3"
@@ -869,16 +869,16 @@
   resolved "https://registry.yarnpkg.com/@semantic-release/error/-/error-3.0.0.tgz#30a3b97bbb5844d695eb22f9d3aa40f6a92770c2"
   integrity sha512-5hiM4Un+tpl4cKw3lV4UgzJj+SmfNIDCLLw0TepzQxz9ZGV5ixnqkzIVF+3tp0ZHgcMKE+VNGHJjEeyFG2dcSw==
 
-"@semantic-release/git@^9.0.0":
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/@semantic-release/git/-/git-9.0.0.tgz#304c4883c87d095b1faaae93300f1f1e0466e9a5"
-  integrity sha512-AZ4Zha5NAPAciIJH3ipzw/WU9qLAn8ENaoVAhD6srRPxTpTzuV3NhNh14rcAo8Paj9dO+5u4rTKcpetOBluYVw==
+"@semantic-release/git@^10.0.0":
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/@semantic-release/git/-/git-10.0.0.tgz#41dda434e9c2fe222d030f12060e6f5a8696e7ba"
+  integrity sha512-/BljvngXJzwbFFJouxHHvSzAhi5iaucF7l0kQPszD4m7Y79+FHyvQl5Q/HK7T/e8MIwU9hz321KjOZn9yfSpPg==
   dependencies:
     "@semantic-release/error" "^2.1.0"
     aggregate-error "^3.0.0"
     debug "^4.0.0"
     dir-glob "^3.0.0"
-    execa "^4.0.0"
+    execa "^5.0.0"
     lodash "^4.17.4"
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
