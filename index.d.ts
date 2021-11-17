@@ -8,6 +8,8 @@ export declare interface Marketplace {
   advertisingApiDomain?: string;
   imagesDomain?: string;
   vendorId?: string;
+  sellerCentralDomain: string;
+  vendorCentralDomain: string;
 }
 
 /**
