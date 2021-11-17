@@ -8,7 +8,9 @@
     "mwsDomain": "mws-eu.amazonservices.com",
     "advertisingApiDomain": "advertising-api-eu.amazon.com",
     "imagesDomain": "images-eu.ssl-images-amazon.com",
-    "vendorId": "A3JWKAKR8XB7XF"
+    "vendorId": "A3JWKAKR8XB7XF",
+    "sellerCentralDomain": "sellercentral-europe.amazon.com",
+    "vendorCentralDomain": "vendorcentral.amazon.de"
   },
   {
     "code": "de-non-amazon",
@@ -25,7 +27,9 @@
     "mwsDomain": "mws-eu.amazonservices.com",
     "advertisingApiDomain": "advertising-api-eu.amazon.com",
     "imagesDomain": "images-eu.ssl-images-amazon.com",
-    "vendorId": "A1AT7YVPFBWXBL"
+    "vendorId": "A1AT7YVPFBWXBL",
+    "sellerCentralDomain": "sellercentral-europe.amazon.com",
+    "vendorCentralDomain": "vendorcentral.amazon.es"
   },
   {
     "code": "es-non-amazon",
@@ -42,7 +46,9 @@
     "mwsDomain": "mws-eu.amazonservices.com",
     "advertisingApiDomain": "advertising-api-eu.amazon.com",
     "imagesDomain": "images-eu.ssl-images-amazon.com",
-    "vendorId": "A1X6FK5RDHNB96"
+    "vendorId": "A1X6FK5RDHNB96",
+    "sellerCentralDomain": "sellercentral-europe.amazon.com",
+    "vendorCentralDomain": "vendorcentral.amazon.fr"
   },
   {
     "code": "fr-non-amazon",
@@ -59,7 +65,9 @@
     "mwsDomain": "mws-eu.amazonservices.com",
     "advertisingApiDomain": "advertising-api-eu.amazon.com",
     "imagesDomain": "images-eu.ssl-images-amazon.com",
-    "vendorId": "A11IL2PNWYJU7H"
+    "vendorId": "A11IL2PNWYJU7H",
+    "sellerCentralDomain": "sellercentral-europe.amazon.com",
+    "vendorCentralDomain": "vendorcentral.amazon.it"
   },
   {
     "code": "it-non-amazon",
@@ -76,7 +84,9 @@
     "mwsDomain": "mws-eu.amazonservices.com",
     "advertisingApiDomain": "advertising-api-eu.amazon.com",
     "imagesDomain": "images-eu.ssl-images-amazon.com",
-    "vendorId": "A3P5ROKL5A1OLE"
+    "vendorId": "A3P5ROKL5A1OLE",
+    "sellerCentralDomain": "sellercentral-europe.amazon.com",
+    "vendorCentralDomain": "vendorcentral.amazon.co.uk"
   },
   {
     "code": "uk-non-amazon",
@@ -92,7 +102,9 @@
     "domain": "amazon.com.tr",
     "mwsDomain": "mws-eu.amazonservices.com",
     "imagesDomain": "images-eu.ssl-images-amazon.com",
-    "vendorId": "A1UNQM1SR2CHM"
+    "vendorId": "A1UNQM1SR2CHM",
+    "sellerCentralDomain": "sellercentral.amazon.com.tr",
+    "vendorCentralDomain": "vendorcentral.amazon.com.tr"
   },
   {
     "code": "eg",
@@ -102,7 +114,9 @@
     "domain": "amazon.eg",
     "mwsDomain": "mws-eu.amazonservices.com",
     "imagesDomain": "images-eu.ssl-images-amazon.com",
-    "vendorId": "A1ZVRGNO5AYLOV"
+    "vendorId": "A1ZVRGNO5AYLOV",
+    "sellerCentralDomain": "sellercentral.amazon.eg",
+    "vendorCentralDomain": "vendorcentral.amazon.me"
   },
   {
     "code": "sa",
@@ -122,7 +136,9 @@
     "domain": "amazon.nl",
     "mwsDomain": "mws-eu.amazonservices.com",
     "imagesDomain": "images-eu.ssl-images-amazon.com",
-    "vendorId": "A17D2BRD4YMT0X"
+    "vendorId": "A17D2BRD4YMT0X",
+    "sellerCentralDomain": "sellercentral.amazon.nl",
+    "vendorCentralDomain": "vendorcentral.amazon.nl"
   },
   {
     "code": "se",
@@ -132,7 +148,9 @@
     "domain": "amazon.se",
     "mwsDomain": "mws-eu.amazonservices.com",
     "imagesDomain": "images-eu.ssl-images-amazon.com",
-    "vendorId": "ANU9KP01APNAG"
+    "vendorId": "ANU9KP01APNAG",
+    "sellerCentralDomain": "sellercentral.amazon.se",
+    "vendorCentralDomain": "vendorcentral.amazon.se"
   },
   {
     "code": "pl",
@@ -142,7 +160,9 @@
     "domain": "amazon.pl",
     "mwsDomain": "mws-eu.amazonservices.com",
     "imagesDomain": "images-eu.ssl-images-amazon.com",
-    "vendorId": "A2R2221NX79QZP"
+    "vendorId": "A2R2221NX79QZP",
+    "sellerCentralDomain": "sellercentral.amazon.pl",
+    "vendorCentralDomain": "vendorcentral.amazon.pl"
   },
   {
     "code": "ca",
@@ -153,7 +173,9 @@
     "mwsDomain": "mws.amazonservices.ca",
     "advertisingApiDomain": "advertising-api.amazon.com",
     "imagesDomain": "images-na.ssl-images-amazon.com",
-    "vendorId": "A3DWYIK6Y9EEQB"
+    "vendorId": "A3DWYIK6Y9EEQB",
+    "sellerCentralDomain": "sellercentral.amazon.ca",
+    "vendorCentralDomain": "vendorcentral.amazon.ca"
   },
   {
     "code": "ca-non-amazon",
@@ -169,7 +191,9 @@
     "domain": "amazon.com.mx",
     "mwsDomain": "mws.amazonservices.com.mx",
     "imagesDomain": "images-na.ssl-images-amazon.com",
-    "vendorId": "AVDBXBAVVSXLQ"
+    "vendorId": "AVDBXBAVVSXLQ",
+    "sellerCentralDomain": "sellercentral.amazon.com.mx",
+    "vendorCentralDomain": "vendorcentral.amazon.com.mx"
   },
   {
     "code": "mx-non-amazon",
@@ -186,7 +210,9 @@
     "mwsDomain": "mws.amazonservices.com",
     "advertisingApiDomain": "advertising-api.amazon.com",
     "imagesDomain": "images-na.ssl-images-amazon.com",
-    "vendorId": "ATVPDKIKX0DER"
+    "vendorId": "ATVPDKIKX0DER",
+    "sellerCentralDomain": "sellercentral.amazon.com",
+    "vendorCentralDomain": "vendorcentral.amazon.com"
   },
   {
     "code": "us-non-amazon",
@@ -202,7 +228,9 @@
     "domain": "amazon.com.br",
     "mwsDomain": "mws.amazonservices.com",
     "imagesDomain": "images-na.ssl-images-amazon.com",
-    "vendorId": "A1ZZFT5FULY4LN"
+    "vendorId": "A1ZZFT5FULY4LN",
+    "sellerCentralDomain": "sellercentral.amazon.com.br",
+    "vendorCentralDomain": "vendorcentral.amazon.com.br"
   },
   {
     "code": "ae",
@@ -213,7 +241,9 @@
     "mwsDomain": "mws.amazonservices.ae",
     "advertisingApiDomain": "advertising-api-eu.amazon.com",
     "imagesDomain": "images-eu.ssl-images-amazon.com",
-    "vendorId": "A2KKU8J8O8784X"
+    "vendorId": "A2KKU8J8O8784X",
+    "sellerCentralDomain": "sellercentral.amazon.ae",
+    "vendorCentralDomain": "vendorcentral.amazon.me"
   },
   {
     "code": "in",
@@ -222,7 +252,9 @@
     "region": "eu",
     "domain": "amazon.in",
     "mwsDomain": "mws.amazonservices.in",
-    "imagesDomain": "images-eu.ssl-images-amazon.com"
+    "imagesDomain": "images-eu.ssl-images-amazon.com",
+    "sellerCentralDomain": "sellercentral.amazon.in",
+    "vendorCentralDomain": "vendorcentral.amazon.in"
   },
   {
     "code": "au",
@@ -233,7 +265,9 @@
     "mwsDomain": "mws.amazonservices.com.au",
     "advertisingApiDomain": "advertising-api-fe.amazon.com",
     "imagesDomain": "images-fe.ssl-images-amazon.com",
-    "vendorId": "ANEGB3WVEVKZB"
+    "vendorId": "ANEGB3WVEVKZB",
+    "sellerCentralDomain": "sellercentral.amazon.com.au",
+    "vendorCentralDomain": "vendorcentral.amazon.com.au"
   },
   {
     "code": "jp",
@@ -244,7 +278,9 @@
     "mwsDomain": "mws.amazonservices.jp",
     "advertisingApiDomain": "advertising-api-fe.amazon.com",
     "imagesDomain": "images-fe.ssl-images-amazon.com",
-    "vendorId": "AN1VRQENFRJN5"
+    "vendorId": "AN1VRQENFRJN5",
+    "sellerCentralDomain": "sellercentral.amazon.co.jp",
+    "vendorCentralDomain": "vendorcentral.amazon.co.jp"
   },
   {
     "code": "sg",
@@ -253,6 +289,8 @@
     "region": "fe",
     "domain": "amazon.sg",
     "mwsDomain": "mws-fe.amazonservices.com",
-    "imagesDomain": "images-fe.ssl-images-amazon.com"
+    "imagesDomain": "images-fe.ssl-images-amazon.com",
+    "sellerCentralDomain": "sellercentral.amazon.sg",
+    "vendorCentralDomain": "vendorcentral.amazon.com.sg"
   }
 ]
