@@ -40,7 +40,9 @@ getMarketplaceById('ATVPDKIKX0DER')
   mwsDomain: 'mws.amazonservices.com',
   advertisingApiDomain: 'advertising-api.amazon.com',
   imagesDomain: 'images-na.ssl-images-amazon.com',
-  vendorId: 'ATVPDKIKX0DER'
+  vendorId: 'ATVPDKIKX0DER',
+  sellerCentralDomain: 'sellercentral.amazon.com',
+  vendorCentralDomain: 'vendorcentral.amazon.com'
 }
 */
 ```
@@ -77,7 +79,9 @@ getMarketplaceByCode('DE')
   mwsDomain: 'mws-eu.amazonservices.com',
   advertisingApiDomain: 'advertising-api-eu.amazon.com',
   imagesDomain: 'images-eu.ssl-images-amazon.com',
-  vendorId: 'A3JWKAKR8XB7XF'
+  vendorId: 'A3JWKAKR8XB7XF',
+  sellerCentralDomain: 'sellercentral-europe.amazon.com',
+  vendorCentralDomain: 'vendorcentral.amazon.de'
 }
 */
 ```
@@ -98,7 +102,9 @@ getMarketplaceByDomain('Amazon.com.mx')
   domain: 'amazon.com.mx',
   mwsDomain: 'mws.amazonservices.com.mx',
   imagesDomain: 'images-na.ssl-images-amazon.com',
-  vendorId: 'AVDBXBAVVSXLQ'
+  vendorId: 'AVDBXBAVVSXLQ',
+  sellerCentralDomain: 'sellercentral.amazon.com.mx',
+  vendorCentralDomain: 'vendorcentral.amazon.com.mx'
 }
 */
 ```
@@ -118,10 +124,7 @@ getMarketplacesByMwsDomain('mws.amazonservices.com')
     name: 'United States',
     region: 'na',
     domain: 'amazon.com',
-    mwsDomain: 'mws.amazonservices.com',
-    advertisingApiDomain: 'advertising-api.amazon.com',
-    imagesDomain: 'images-na.ssl-images-amazon.com',
-    vendorId: 'ATVPDKIKX0DER'
+    …
   },
   {
     code: 'br',
@@ -129,9 +132,7 @@ getMarketplacesByMwsDomain('mws.amazonservices.com')
     name: 'Brazil',
     region: 'na',
     domain: 'amazon.com.br',
-    mwsDomain: 'mws.amazonservices.com',
-    imagesDomain: 'images-na.ssl-images-amazon.com',
-    vendorId: 'A1ZZFT5FULY4LN'
+    …
   }
 ]
 */
@@ -154,10 +155,7 @@ getMarketplacesByMwsRegion('na')
     name: 'United States',
     region: 'na',
     domain: 'amazon.com',
-    mwsDomain: 'mws.amazonservices.com',
-    advertisingApiDomain: 'advertising-api.amazon.com',
-    imagesDomain: 'images-na.ssl-images-amazon.com',
-    vendorId: 'ATVPDKIKX0DER'
+    …
   },
   {
     code: 'br',
@@ -165,9 +163,7 @@ getMarketplacesByMwsRegion('na')
     name: 'Brazil',
     region: 'na',
     domain: 'amazon.com.br',
-    mwsDomain: 'mws.amazonservices.com',
-    imagesDomain: 'images-na.ssl-images-amazon.com',
-    vendorId: 'A1ZZFT5FULY4LN'
+    …
   }
 ]
 */
