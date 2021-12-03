@@ -23,7 +23,7 @@
     "jest": "^27.4.0",
     "jest-junit": "^13.0.0",
     "semantic-release": "^18.0.0",
-    "xo": "^0.46.4"
+    "xo": "^0.47.0"
   },
   "keywords": [
     "amazon",
