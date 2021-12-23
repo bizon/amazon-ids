@@ -1,6 +1,4 @@
-const {
-  getMarketplaceByDomain,
-} = require('..')
+const {getMarketplaceByDomain} = require('..')
 
 describe('index', () => {
   describe('getMarketplaceByDomain', () => {

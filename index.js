@@ -19,27 +19,29 @@ const mwsRegionDomains = {
 
 exports.marketplaces = marketplaces
 
-exports.getMarketplaceById = mem(id => marketplaces.find(marketplace => marketplace.id === id))
+exports.getMarketplaceById = mem((id) => marketplaces.find((marketplace) => marketplace.id === id))
 
-exports.getMarketplaceByCode = mem(code => {
+exports.getMarketplaceByCode = mem((code) => {
   code = code.toLowerCase()
 
-  return marketplaces.find(marketplace => marketplace.code === code)
+  return marketplaces.find((marketplace) => marketplace.code === code)
 })
 
-exports.getMarketplaceByDomain = mem(domain => {
+exports.getMarketplaceByDomain = mem((domain) => {
   domain = domain.toLowerCase()
 
   if (domain.startsWith('www.')) {
     domain = domain.slice(4)
   }
 
-  return marketplaces.find(marketplace => marketplace.domain === domain)
+  return marketplaces.find((marketplace) => marketplace.domain === domain)
 })
 
-exports.getMarketplacesByMwsDomain = mem(domain => marketplaces.filter(marketplace => marketplace.mwsDomain === domain))
+exports.getMarketplacesByMwsDomain = mem((domain) =>
+  marketplaces.filter((marketplace) => marketplace.mwsDomain === domain),
+)
 
-exports.getMarketplacesByMwsRegion = mem(mwsRegion => {
+exports.getMarketplacesByMwsRegion = mem((mwsRegion) => {
   const mwsDomain = mwsRegionDomains[String(mwsRegion).toLowerCase()]
 
   if (!mwsDomain) {

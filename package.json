@@ -51,6 +51,7 @@
     "rules": {
       "unicorn/prefer-module": "off"
     },
+    "prettier": true,
     "overrides": [
       {
         "files": "__tests__/**/*.js",
@@ -59,6 +60,9 @@
         ]
       }
     ]
+  },
+  "prettier": {
+    "printWidth": 100
   },
   "release": {
     "extends": "@bizon/semantic-release-config"

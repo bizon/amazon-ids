@@ -1,15 +1,15 @@
 export declare interface Marketplace {
-  code: string;
-  id: string;
-  name: string;
-  region: string;
-  domain?: string;
-  mwsDomain?: string;
-  advertisingApiDomain?: string;
-  imagesDomain?: string;
-  vendorId?: string;
-  sellerCentralDomain: string;
-  vendorCentralDomain: string;
+  code: string
+  id: string
+  name: string
+  region: string
+  domain?: string
+  mwsDomain?: string
+  advertisingApiDomain?: string
+  imagesDomain?: string
+  vendorId?: string
+  sellerCentralDomain: string
+  vendorCentralDomain: string
 }
 
 /**
