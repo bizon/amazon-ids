@@ -1,6 +1,19 @@
-import {getMarketplaceByDomain, getMarketplaceByCode} from '../src'
+import {getMarketplaceById, getMarketplaceByDomain, getMarketplaceByCode} from '../src'
 
 describe('index', () => {
+  describe('getMarketplaceById', () => {
+    it('should find marketplaces by id', () => {
+      expect(getMarketplaceById('A1PA6795UKMFR9')?.code).toBe('de')
+      expect(getMarketplaceById('A38D8NSA03LJTC')?.code).toBe('de-non-amazon')
+    })
+
+    it('should return undefined for unknown ids', () => {
+      expect(getMarketplaceById('a1pa6795ukmfr9')).toBeUndefined()
+      expect(getMarketplaceById('unknown')).toBeUndefined()
+      expect(getMarketplaceById('')).toBeUndefined()
+    })
+  })
+
   describe('getMarketplaceByCode', () => {
     it('should support all cases', () => {
       expect(getMarketplaceByCode('FR')?.domain).toBe('amazon.fr')
