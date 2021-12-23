@@ -2,27 +2,40 @@
   "name": "@bizon/amazon-ids",
   "version": "2.8.0",
   "description": "Collection of Amazon identifiers",
-  "main": "index.js",
   "repository": "https://github.com/bizon/amazon-ids",
   "author": "Bertrand Marron <bertrand.marron@gmail.com>",
   "license": "MIT",
-  "scripts": {
-    "test": "jest"
-  },
   "files": [
-    "index.js",
-    "index.d.ts",
-    "marketplaces.json"
+    "dist"
   ],
-  "types": "index.d.ts",
+  "source": "./src/index.ts",
+  "exports": {
+    "require": "./dist/amazon-ids.js",
+    "default": "./dist/amazon-ids.modern.js"
+  },
+  "main": "./dist/amazon-ids.js",
+  "module": "./dist/amazon-ids.esm.js",
+  "types": "./dist/index.d.ts",
+  "unpkg": "./dist/amazon-ids.umd.js",
+  "scripts": {
+    "test": "jest",
+    "check:ts": "tsc --noEmit",
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
   "dependencies": {
     "mem": "^8.1.1"
   },
   "devDependencies": {
     "@bizon/semantic-release-config": "^1.1.0",
+    "@tsconfig/node14": "^1.0.1",
+    "@types/jest": "^27.0.3",
     "jest": "^27.4.5",
     "jest-junit": "^13.0.0",
+    "microbundle": "^0.14.2",
     "semantic-release": "^18.0.1",
+    "ts-jest": "^27.1.2",
+    "typescript": "^4.5.4",
     "xo": "^0.47.0"
   },
   "keywords": [
@@ -32,13 +45,11 @@
     "marketplaces"
   ],
   "jest": {
+    "preset": "ts-jest",
     "testEnvironment": "node",
-    "testMatch": [
-      "<rootDir>/__tests__/**/*.js"
-    ],
     "collectCoverage": true,
     "collectCoverageFrom": [
-      "index.js"
+      "src/**/*.ts"
     ],
     "coverageReporters": [
       "lcov",
@@ -49,17 +60,10 @@
     "semicolon": false,
     "space": 2,
     "rules": {
+      "import/extensions": "off",
       "unicorn/prefer-module": "off"
     },
-    "prettier": true,
-    "overrides": [
-      {
-        "files": "__tests__/**/*.js",
-        "envs": [
-          "jest"
-        ]
-      }
-    ]
+    "prettier": true
   },
   "prettier": {
     "printWidth": 100
