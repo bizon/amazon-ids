@@ -26,6 +26,26 @@ jobs:
       - name: Run linter for scripts
         run: yarn xo
 
+  check-ts:
+    name: Run typescript checks
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+          cache: yarn
+
+      - name: Install dependencies
+        run: yarn --frozen-lockfile --non-interactive --prefer-offline
+
+      - name: Run typescript checks
+        run: yarn check:ts
+
   test:
     name: Run tests
     runs-on: ubuntu-latest
