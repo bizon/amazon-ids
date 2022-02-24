@@ -15,7 +15,7 @@
   {
     "code": "de-non-amazon",
     "id": "A38D8NSA03LJTC",
-    "name": "Germany - Non-Amazon",
+    "name": "Germany - Non-Amazon",
     "region": "eu"
   },
   {
@@ -34,7 +34,7 @@
   {
     "code": "es-non-amazon",
     "id": "AFQLKURYRPEL8",
-    "name": "Spain - Non-Amazon",
+    "name": "Spain - Non-Amazon",
     "region": "eu"
   },
   {
@@ -53,7 +53,7 @@
   {
     "code": "fr-non-amazon",
     "id": "A1ZFFQZ3HTUKT9",
-    "name": "France - Non-Amazon",
+    "name": "France - Non-Amazon",
     "region": "eu"
   },
   {
@@ -72,7 +72,7 @@
   {
     "code": "it-non-amazon",
     "id": "A62U237T8HV6N",
-    "name": "Italy - Non-Amazon",
+    "name": "Italy - Non-Amazon",
     "region": "eu"
   },
   {
@@ -91,7 +91,7 @@
   {
     "code": "uk-non-amazon",
     "id": "AZMDEXL2RVFNN",
-    "name": "United Kingdom - Non-Amazon",
+    "name": "United Kingdom - Non-Amazon",
     "region": "eu"
   },
   {
@@ -180,7 +180,7 @@
   {
     "code": "ca-non-amazon",
     "id": "A1MQXOICRS2Z7M",
-    "name": "Canada - Non-Amazon",
+    "name": "Canada - Non-Amazon",
     "region": "na"
   },
   {
@@ -198,7 +198,7 @@
   {
     "code": "mx-non-amazon",
     "id": "A3H6HPSLHAK3XG",
-    "name": "Mexico - Non-Amazon",
+    "name": "Mexico - Non-Amazon",
     "region": "na"
   },
   {
@@ -217,7 +217,13 @@
   {
     "code": "us-non-amazon",
     "id": "A2ZV50J4W1RKNI",
-    "name": "United States - Non-Amazon",
+    "name": "United States - Non-Amazon",
+    "region": "na"
+  },
+  {
+    "code": "us-invoicing-shadow",
+    "id": "AHRY1CZE9ZY4H",
+    "name": "United States - Invoicing Shadow Marketplace",
     "region": "na"
   },
   {
