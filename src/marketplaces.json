@@ -126,7 +126,8 @@
     "domain": "amazon.sa",
     "mwsDomain": "mws-eu.amazonservices.com",
     "imagesDomain": "images-eu.ssl-images-amazon.com",
-    "vendorId": "A2XPWB6MYN7ZDK"
+    "vendorId": "A2XPWB6MYN7ZDK",
+    "sellerCentralDomain": "sellercentral.amazon.com.sa"
   },
   {
     "code": "nl",
