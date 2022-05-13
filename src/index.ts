@@ -14,6 +14,7 @@ export interface Marketplace {
   vendorId?: string
   sellerCentralDomain?: string
   vendorCentralDomain?: string
+  currencyCode: string
 }
 
 const mwsRegionDomains = {

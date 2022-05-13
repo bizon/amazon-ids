@@ -42,7 +42,8 @@ getMarketplaceById('ATVPDKIKX0DER')
   imagesDomain: 'images-na.ssl-images-amazon.com',
   vendorId: 'ATVPDKIKX0DER',
   sellerCentralDomain: 'sellercentral.amazon.com',
-  vendorCentralDomain: 'vendorcentral.amazon.com'
+  vendorCentralDomain: 'vendorcentral.amazon.com',
+  currencyCode: 'USD'
 }
 */
 ```
@@ -57,7 +58,8 @@ getMarketplaceById('A2ZV50J4W1RKNI')
   code: 'us-non-amazon',
   id: 'A2ZV50J4W1RKNI',
   name: 'United States - Non-Amazon',
-  region: 'na'
+  region: 'na',
+  currencyCode: 'USD'
 }
 */
 ```
@@ -81,7 +83,8 @@ getMarketplaceByCode('DE')
   imagesDomain: 'images-eu.ssl-images-amazon.com',
   vendorId: 'A3JWKAKR8XB7XF',
   sellerCentralDomain: 'sellercentral-europe.amazon.com',
-  vendorCentralDomain: 'vendorcentral.amazon.de'
+  vendorCentralDomain: 'vendorcentral.amazon.de',
+  currencyCode: 'EUR'
 }
 */
 ```
@@ -104,7 +107,8 @@ getMarketplaceByDomain('Amazon.com.mx')
   imagesDomain: 'images-na.ssl-images-amazon.com',
   vendorId: 'AVDBXBAVVSXLQ',
   sellerCentralDomain: 'sellercentral.amazon.com.mx',
-  vendorCentralDomain: 'vendorcentral.amazon.com.mx'
+  vendorCentralDomain: 'vendorcentral.amazon.com.mx',
+  currencyCode: 'MXN'
 }
 */
 ```
