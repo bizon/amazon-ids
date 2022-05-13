@@ -11,8 +11,8 @@
   ],
   "source": "./src/index.ts",
   "exports": {
-    "require": "./dist/amazon-ids.js",
-    "default": "./dist/amazon-ids.modern.js"
+    "require": "./dist/amazon-ids.mjs",
+    "default": "./dist/amazon-ids.modern.mjs"
   },
   "main": "./dist/amazon-ids.js",
   "module": "./dist/amazon-ids.esm.js",
