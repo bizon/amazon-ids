@@ -10,13 +10,15 @@
     "imagesDomain": "images-eu.ssl-images-amazon.com",
     "vendorId": "A3JWKAKR8XB7XF",
     "sellerCentralDomain": "sellercentral-europe.amazon.com",
-    "vendorCentralDomain": "vendorcentral.amazon.de"
+    "vendorCentralDomain": "vendorcentral.amazon.de",
+    "currencyCode": "EUR"
   },
   {
     "code": "de-non-amazon",
     "id": "A38D8NSA03LJTC",
     "name": "Germany - Non-Amazon",
-    "region": "eu"
+    "region": "eu",
+    "currencyCode": "EUR"
   },
   {
     "code": "es",
@@ -29,13 +31,15 @@
     "imagesDomain": "images-eu.ssl-images-amazon.com",
     "vendorId": "A1AT7YVPFBWXBL",
     "sellerCentralDomain": "sellercentral-europe.amazon.com",
-    "vendorCentralDomain": "vendorcentral.amazon.es"
+    "vendorCentralDomain": "vendorcentral.amazon.es",
+    "currencyCode": "EUR"
   },
   {
     "code": "es-non-amazon",
     "id": "AFQLKURYRPEL8",
     "name": "Spain - Non-Amazon",
-    "region": "eu"
+    "region": "eu",
+    "currencyCode": "EUR"
   },
   {
     "code": "fr",
@@ -48,13 +52,15 @@
     "imagesDomain": "images-eu.ssl-images-amazon.com",
     "vendorId": "A1X6FK5RDHNB96",
     "sellerCentralDomain": "sellercentral-europe.amazon.com",
-    "vendorCentralDomain": "vendorcentral.amazon.fr"
+    "vendorCentralDomain": "vendorcentral.amazon.fr",
+    "currencyCode": "EUR"
   },
   {
     "code": "fr-non-amazon",
     "id": "A1ZFFQZ3HTUKT9",
     "name": "France - Non-Amazon",
-    "region": "eu"
+    "region": "eu",
+    "currencyCode": "EUR"
   },
   {
     "code": "it",
@@ -67,13 +73,15 @@
     "imagesDomain": "images-eu.ssl-images-amazon.com",
     "vendorId": "A11IL2PNWYJU7H",
     "sellerCentralDomain": "sellercentral-europe.amazon.com",
-    "vendorCentralDomain": "vendorcentral.amazon.it"
+    "vendorCentralDomain": "vendorcentral.amazon.it",
+    "currencyCode": "EUR"
   },
   {
     "code": "it-non-amazon",
     "id": "A62U237T8HV6N",
     "name": "Italy - Non-Amazon",
-    "region": "eu"
+    "region": "eu",
+    "currencyCode": "EUR"
   },
   {
     "code": "uk",
@@ -86,13 +94,15 @@
     "imagesDomain": "images-eu.ssl-images-amazon.com",
     "vendorId": "A3P5ROKL5A1OLE",
     "sellerCentralDomain": "sellercentral-europe.amazon.com",
-    "vendorCentralDomain": "vendorcentral.amazon.co.uk"
+    "vendorCentralDomain": "vendorcentral.amazon.co.uk",
+    "currencyCode": "GBP"
   },
   {
     "code": "uk-non-amazon",
     "id": "AZMDEXL2RVFNN",
     "name": "United Kingdom - Non-Amazon",
-    "region": "eu"
+    "region": "eu",
+    "currencyCode": "GBP"
   },
   {
     "code": "tr",
@@ -104,7 +114,8 @@
     "imagesDomain": "images-eu.ssl-images-amazon.com",
     "vendorId": "A1UNQM1SR2CHM",
     "sellerCentralDomain": "sellercentral.amazon.com.tr",
-    "vendorCentralDomain": "vendorcentral.amazon.com.tr"
+    "vendorCentralDomain": "vendorcentral.amazon.com.tr",
+    "currencyCode": "TRY"
   },
   {
     "code": "eg",
@@ -116,7 +127,8 @@
     "imagesDomain": "images-eu.ssl-images-amazon.com",
     "vendorId": "A1ZVRGNO5AYLOV",
     "sellerCentralDomain": "sellercentral.amazon.eg",
-    "vendorCentralDomain": "vendorcentral.amazon.me"
+    "vendorCentralDomain": "vendorcentral.amazon.me",
+    "currencyCode": "EGP"
   },
   {
     "code": "sa",
@@ -127,7 +139,8 @@
     "mwsDomain": "mws-eu.amazonservices.com",
     "imagesDomain": "images-eu.ssl-images-amazon.com",
     "vendorId": "A2XPWB6MYN7ZDK",
-    "sellerCentralDomain": "sellercentral.amazon.com.sa"
+    "sellerCentralDomain": "sellercentral.amazon.com.sa",
+    "currencyCode": "SAR"
   },
   {
     "code": "nl",
@@ -139,7 +152,8 @@
     "imagesDomain": "images-eu.ssl-images-amazon.com",
     "vendorId": "A17D2BRD4YMT0X",
     "sellerCentralDomain": "sellercentral.amazon.nl",
-    "vendorCentralDomain": "vendorcentral.amazon.nl"
+    "vendorCentralDomain": "vendorcentral.amazon.nl",
+    "currencyCode": "EUR"
   },
   {
     "code": "se",
@@ -151,7 +165,8 @@
     "imagesDomain": "images-eu.ssl-images-amazon.com",
     "vendorId": "ANU9KP01APNAG",
     "sellerCentralDomain": "sellercentral.amazon.se",
-    "vendorCentralDomain": "vendorcentral.amazon.se"
+    "vendorCentralDomain": "vendorcentral.amazon.se",
+    "currencyCode": "SEK"
   },
   {
     "code": "pl",
@@ -163,7 +178,8 @@
     "imagesDomain": "images-eu.ssl-images-amazon.com",
     "vendorId": "A2R2221NX79QZP",
     "sellerCentralDomain": "sellercentral.amazon.pl",
-    "vendorCentralDomain": "vendorcentral.amazon.pl"
+    "vendorCentralDomain": "vendorcentral.amazon.pl",
+    "currencyCode": "PLN"
   },
   {
     "code": "ca",
@@ -176,13 +192,15 @@
     "imagesDomain": "images-na.ssl-images-amazon.com",
     "vendorId": "A3DWYIK6Y9EEQB",
     "sellerCentralDomain": "sellercentral.amazon.ca",
-    "vendorCentralDomain": "vendorcentral.amazon.ca"
+    "vendorCentralDomain": "vendorcentral.amazon.ca",
+    "currencyCode": "CAD"
   },
   {
     "code": "ca-non-amazon",
     "id": "A1MQXOICRS2Z7M",
     "name": "Canada - Non-Amazon",
-    "region": "na"
+    "region": "na",
+    "currencyCode": "CAD"
   },
   {
     "code": "mx",
@@ -194,13 +212,15 @@
     "imagesDomain": "images-na.ssl-images-amazon.com",
     "vendorId": "AVDBXBAVVSXLQ",
     "sellerCentralDomain": "sellercentral.amazon.com.mx",
-    "vendorCentralDomain": "vendorcentral.amazon.com.mx"
+    "vendorCentralDomain": "vendorcentral.amazon.com.mx",
+    "currencyCode": "MXN"
   },
   {
     "code": "mx-non-amazon",
     "id": "A3H6HPSLHAK3XG",
     "name": "Mexico - Non-Amazon",
-    "region": "na"
+    "region": "na",
+    "currencyCode": "MXN"
   },
   {
     "code": "us",
@@ -213,19 +233,22 @@
     "imagesDomain": "images-na.ssl-images-amazon.com",
     "vendorId": "ATVPDKIKX0DER",
     "sellerCentralDomain": "sellercentral.amazon.com",
-    "vendorCentralDomain": "vendorcentral.amazon.com"
+    "vendorCentralDomain": "vendorcentral.amazon.com",
+    "currencyCode": "USD"
   },
   {
     "code": "us-non-amazon",
     "id": "A2ZV50J4W1RKNI",
     "name": "United States - Non-Amazon",
-    "region": "na"
+    "region": "na",
+    "currencyCode": "USD"
   },
   {
     "code": "us-invoicing-shadow",
     "id": "AHRY1CZE9ZY4H",
     "name": "United States - Invoicing Shadow Marketplace",
-    "region": "na"
+    "region": "na",
+    "currencyCode": "USD"
   },
   {
     "code": "br",
@@ -237,7 +260,8 @@
     "imagesDomain": "images-na.ssl-images-amazon.com",
     "vendorId": "A1ZZFT5FULY4LN",
     "sellerCentralDomain": "sellercentral.amazon.com.br",
-    "vendorCentralDomain": "vendorcentral.amazon.com.br"
+    "vendorCentralDomain": "vendorcentral.amazon.com.br",
+    "currencyCode": "BRL"
   },
   {
     "code": "ae",
@@ -250,7 +274,8 @@
     "imagesDomain": "images-eu.ssl-images-amazon.com",
     "vendorId": "A2KKU8J8O8784X",
     "sellerCentralDomain": "sellercentral.amazon.ae",
-    "vendorCentralDomain": "vendorcentral.amazon.me"
+    "vendorCentralDomain": "vendorcentral.amazon.me",
+    "currencyCode": "AED"
   },
   {
     "code": "in",
@@ -261,7 +286,8 @@
     "mwsDomain": "mws.amazonservices.in",
     "imagesDomain": "images-eu.ssl-images-amazon.com",
     "sellerCentralDomain": "sellercentral.amazon.in",
-    "vendorCentralDomain": "vendorcentral.amazon.in"
+    "vendorCentralDomain": "vendorcentral.amazon.in",
+    "currencyCode": "INR"
   },
   {
     "code": "au",
@@ -274,7 +300,8 @@
     "imagesDomain": "images-fe.ssl-images-amazon.com",
     "vendorId": "ANEGB3WVEVKZB",
     "sellerCentralDomain": "sellercentral.amazon.com.au",
-    "vendorCentralDomain": "vendorcentral.amazon.com.au"
+    "vendorCentralDomain": "vendorcentral.amazon.com.au",
+    "currencyCode": "AUD"
   },
   {
     "code": "jp",
@@ -287,7 +314,8 @@
     "imagesDomain": "images-fe.ssl-images-amazon.com",
     "vendorId": "AN1VRQENFRJN5",
     "sellerCentralDomain": "sellercentral.amazon.co.jp",
-    "vendorCentralDomain": "vendorcentral.amazon.co.jp"
+    "vendorCentralDomain": "vendorcentral.amazon.co.jp",
+    "currencyCode": "JPY"
   },
   {
     "code": "sg",
@@ -298,6 +326,7 @@
     "mwsDomain": "mws-fe.amazonservices.com",
     "imagesDomain": "images-fe.ssl-images-amazon.com",
     "sellerCentralDomain": "sellercentral.amazon.sg",
-    "vendorCentralDomain": "vendorcentral.amazon.com.sg"
+    "vendorCentralDomain": "vendorcentral.amazon.com.sg",
+    "currencyCode": "SGD"
   }
 ]
