@@ -11,13 +11,13 @@
   ],
   "source": "./src/index.ts",
   "exports": {
-    "require": "./dist/amazon-ids.mjs",
+    "require": "./dist/amazon-ids.js",
     "default": "./dist/amazon-ids.modern.mjs"
   },
   "main": "./dist/amazon-ids.js",
-  "module": "./dist/amazon-ids.esm.js",
+  "module": "./dist/amazon-ids.mjs",
   "types": "./dist/index.d.ts",
-  "unpkg": "./dist/amazon-ids.umd.js",
+  "umd:main": "./dist/amazon-ids.umd.js",
   "scripts": {
     "test": "jest",
     "check:ts": "tsc --noEmit",
