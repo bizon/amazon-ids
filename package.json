@@ -19,13 +19,13 @@
   "types": "./dist/index.d.ts",
   "umd:main": "./dist/amazon-ids.umd.js",
   "scripts": {
-    "test": "jest",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
     "check:ts": "tsc --noEmit",
     "build": "microbundle",
     "dev": "microbundle watch"
   },
   "dependencies": {
-    "mem": "^8.1.1"
+    "mem": "^9.0.2"
   },
   "devDependencies": {
     "@bizon/semantic-release-config": "^1.1.0",
@@ -46,7 +46,12 @@
     "marketplaces"
   ],
   "jest": {
-    "preset": "ts-jest",
+    "preset": "ts-jest/presets/default-esm",
+    "globals": {
+      "ts-jest": {
+        "useESM": true
+      }
+    },
     "testEnvironment": "node",
     "collectCoverage": true,
     "collectCoverageFrom": [
