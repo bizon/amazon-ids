@@ -1,341 +1,341 @@
 [
   {
     "code": "be",
+    "currencyCode": "EUR",
     "id": "AMEN7PMS3EDWL",
-    "name": "Belgium",
-    "region": "eu",
-    "mwsDomain": "mws-eu.amazonservices.com",
     "imagesDomain": "images-eu.ssl-images-amazon.com",
-    "currencyCode": "EUR"
+    "mwsDomain": "mws-eu.amazonservices.com",
+    "name": "Belgium",
+    "region": "eu"
   },
   {
+    "advertisingApiDomain": "advertising-api-eu.amazon.com",
     "code": "de",
+    "currencyCode": "EUR",
+    "domain": "amazon.de",
     "id": "A1PA6795UKMFR9",
+    "imagesDomain": "images-eu.ssl-images-amazon.com",
+    "mwsDomain": "mws-eu.amazonservices.com",
     "name": "Germany",
     "region": "eu",
-    "domain": "amazon.de",
-    "mwsDomain": "mws-eu.amazonservices.com",
-    "advertisingApiDomain": "advertising-api-eu.amazon.com",
-    "imagesDomain": "images-eu.ssl-images-amazon.com",
-    "vendorId": "A3JWKAKR8XB7XF",
     "sellerCentralDomain": "sellercentral-europe.amazon.com",
     "vendorCentralDomain": "vendorcentral.amazon.de",
-    "currencyCode": "EUR"
+    "vendorId": "A3JWKAKR8XB7XF"
   },
   {
     "code": "de-non-amazon",
+    "currencyCode": "EUR",
     "id": "A38D8NSA03LJTC",
     "name": "Germany - Non-Amazon",
-    "region": "eu",
-    "currencyCode": "EUR"
+    "region": "eu"
   },
   {
+    "advertisingApiDomain": "advertising-api-eu.amazon.com",
     "code": "es",
+    "currencyCode": "EUR",
+    "domain": "amazon.es",
     "id": "A1RKKUPIHCS9HS",
+    "imagesDomain": "images-eu.ssl-images-amazon.com",
+    "mwsDomain": "mws-eu.amazonservices.com",
     "name": "Spain",
     "region": "eu",
-    "domain": "amazon.es",
-    "mwsDomain": "mws-eu.amazonservices.com",
-    "advertisingApiDomain": "advertising-api-eu.amazon.com",
-    "imagesDomain": "images-eu.ssl-images-amazon.com",
-    "vendorId": "A1AT7YVPFBWXBL",
     "sellerCentralDomain": "sellercentral-europe.amazon.com",
     "vendorCentralDomain": "vendorcentral.amazon.es",
-    "currencyCode": "EUR"
+    "vendorId": "A1AT7YVPFBWXBL"
   },
   {
     "code": "es-non-amazon",
+    "currencyCode": "EUR",
     "id": "AFQLKURYRPEL8",
     "name": "Spain - Non-Amazon",
-    "region": "eu",
-    "currencyCode": "EUR"
+    "region": "eu"
   },
   {
+    "advertisingApiDomain": "advertising-api-eu.amazon.com",
     "code": "fr",
+    "currencyCode": "EUR",
+    "domain": "amazon.fr",
     "id": "A13V1IB3VIYZZH",
+    "imagesDomain": "images-eu.ssl-images-amazon.com",
+    "mwsDomain": "mws-eu.amazonservices.com",
     "name": "France",
     "region": "eu",
-    "domain": "amazon.fr",
-    "mwsDomain": "mws-eu.amazonservices.com",
-    "advertisingApiDomain": "advertising-api-eu.amazon.com",
-    "imagesDomain": "images-eu.ssl-images-amazon.com",
-    "vendorId": "A1X6FK5RDHNB96",
     "sellerCentralDomain": "sellercentral-europe.amazon.com",
     "vendorCentralDomain": "vendorcentral.amazon.fr",
-    "currencyCode": "EUR"
+    "vendorId": "A1X6FK5RDHNB96"
   },
   {
     "code": "fr-non-amazon",
+    "currencyCode": "EUR",
     "id": "A1ZFFQZ3HTUKT9",
     "name": "France - Non-Amazon",
-    "region": "eu",
-    "currencyCode": "EUR"
+    "region": "eu"
   },
   {
+    "advertisingApiDomain": "advertising-api-eu.amazon.com",
     "code": "it",
+    "currencyCode": "EUR",
+    "domain": "amazon.it",
     "id": "APJ6JRA9NG5V4",
+    "imagesDomain": "images-eu.ssl-images-amazon.com",
+    "mwsDomain": "mws-eu.amazonservices.com",
     "name": "Italy",
     "region": "eu",
-    "domain": "amazon.it",
-    "mwsDomain": "mws-eu.amazonservices.com",
-    "advertisingApiDomain": "advertising-api-eu.amazon.com",
-    "imagesDomain": "images-eu.ssl-images-amazon.com",
-    "vendorId": "A11IL2PNWYJU7H",
     "sellerCentralDomain": "sellercentral-europe.amazon.com",
     "vendorCentralDomain": "vendorcentral.amazon.it",
-    "currencyCode": "EUR"
+    "vendorId": "A11IL2PNWYJU7H"
   },
   {
     "code": "it-non-amazon",
+    "currencyCode": "EUR",
     "id": "A62U237T8HV6N",
     "name": "Italy - Non-Amazon",
-    "region": "eu",
-    "currencyCode": "EUR"
+    "region": "eu"
   },
   {
+    "advertisingApiDomain": "advertising-api-eu.amazon.com",
     "code": "uk",
+    "currencyCode": "GBP",
+    "domain": "amazon.co.uk",
     "id": "A1F83G8C2ARO7P",
+    "imagesDomain": "images-eu.ssl-images-amazon.com",
+    "mwsDomain": "mws-eu.amazonservices.com",
     "name": "United Kingdom",
     "region": "eu",
-    "domain": "amazon.co.uk",
-    "mwsDomain": "mws-eu.amazonservices.com",
-    "advertisingApiDomain": "advertising-api-eu.amazon.com",
-    "imagesDomain": "images-eu.ssl-images-amazon.com",
-    "vendorId": "A3P5ROKL5A1OLE",
     "sellerCentralDomain": "sellercentral-europe.amazon.com",
     "vendorCentralDomain": "vendorcentral.amazon.co.uk",
-    "currencyCode": "GBP"
+    "vendorId": "A3P5ROKL5A1OLE"
   },
   {
     "code": "uk-non-amazon",
+    "currencyCode": "GBP",
     "id": "AZMDEXL2RVFNN",
     "name": "United Kingdom - Non-Amazon",
-    "region": "eu",
-    "currencyCode": "GBP"
+    "region": "eu"
   },
   {
     "code": "tr",
+    "currencyCode": "TRY",
+    "domain": "amazon.com.tr",
     "id": "A33AVAJ2PDY3EV",
+    "imagesDomain": "images-eu.ssl-images-amazon.com",
+    "mwsDomain": "mws-eu.amazonservices.com",
     "name": "Turkey",
     "region": "eu",
-    "domain": "amazon.com.tr",
-    "mwsDomain": "mws-eu.amazonservices.com",
-    "imagesDomain": "images-eu.ssl-images-amazon.com",
-    "vendorId": "A1UNQM1SR2CHM",
     "sellerCentralDomain": "sellercentral.amazon.com.tr",
     "vendorCentralDomain": "vendorcentral.amazon.com.tr",
-    "currencyCode": "TRY"
+    "vendorId": "A1UNQM1SR2CHM"
   },
   {
     "code": "eg",
+    "currencyCode": "EGP",
+    "domain": "amazon.eg",
     "id": "ARBP9OOSHTCHU",
+    "imagesDomain": "images-eu.ssl-images-amazon.com",
+    "mwsDomain": "mws-eu.amazonservices.com",
     "name": "Egypt",
     "region": "eu",
-    "domain": "amazon.eg",
-    "mwsDomain": "mws-eu.amazonservices.com",
-    "imagesDomain": "images-eu.ssl-images-amazon.com",
-    "vendorId": "A1ZVRGNO5AYLOV",
     "sellerCentralDomain": "sellercentral.amazon.eg",
     "vendorCentralDomain": "vendorcentral.amazon.me",
-    "currencyCode": "EGP"
+    "vendorId": "A1ZVRGNO5AYLOV"
   },
   {
     "code": "sa",
+    "currencyCode": "SAR",
+    "domain": "amazon.sa",
     "id": "A17E79C6D8DWNP",
+    "imagesDomain": "images-eu.ssl-images-amazon.com",
+    "mwsDomain": "mws-eu.amazonservices.com",
     "name": "Saudi Arabia",
     "region": "eu",
-    "domain": "amazon.sa",
-    "mwsDomain": "mws-eu.amazonservices.com",
-    "imagesDomain": "images-eu.ssl-images-amazon.com",
-    "vendorId": "A2XPWB6MYN7ZDK",
     "sellerCentralDomain": "sellercentral.amazon.com.sa",
-    "currencyCode": "SAR"
+    "vendorId": "A2XPWB6MYN7ZDK"
   },
   {
     "code": "nl",
+    "currencyCode": "EUR",
+    "domain": "amazon.nl",
     "id": "A1805IZSGTT6HS",
+    "imagesDomain": "images-eu.ssl-images-amazon.com",
+    "mwsDomain": "mws-eu.amazonservices.com",
     "name": "Netherlands",
     "region": "eu",
-    "domain": "amazon.nl",
-    "mwsDomain": "mws-eu.amazonservices.com",
-    "imagesDomain": "images-eu.ssl-images-amazon.com",
-    "vendorId": "A17D2BRD4YMT0X",
     "sellerCentralDomain": "sellercentral.amazon.nl",
     "vendorCentralDomain": "vendorcentral.amazon.nl",
-    "currencyCode": "EUR"
+    "vendorId": "A17D2BRD4YMT0X"
   },
   {
     "code": "se",
+    "currencyCode": "SEK",
+    "domain": "amazon.se",
     "id": "A2NODRKZP88ZB9",
+    "imagesDomain": "images-eu.ssl-images-amazon.com",
+    "mwsDomain": "mws-eu.amazonservices.com",
     "name": "Sweden",
     "region": "eu",
-    "domain": "amazon.se",
-    "mwsDomain": "mws-eu.amazonservices.com",
-    "imagesDomain": "images-eu.ssl-images-amazon.com",
-    "vendorId": "ANU9KP01APNAG",
     "sellerCentralDomain": "sellercentral.amazon.se",
     "vendorCentralDomain": "vendorcentral.amazon.se",
-    "currencyCode": "SEK"
+    "vendorId": "ANU9KP01APNAG"
   },
   {
     "code": "pl",
+    "currencyCode": "PLN",
+    "domain": "amazon.pl",
     "id": "A1C3SOZRARQ6R3",
+    "imagesDomain": "images-eu.ssl-images-amazon.com",
+    "mwsDomain": "mws-eu.amazonservices.com",
     "name": "Poland",
     "region": "eu",
-    "domain": "amazon.pl",
-    "mwsDomain": "mws-eu.amazonservices.com",
-    "imagesDomain": "images-eu.ssl-images-amazon.com",
-    "vendorId": "A2R2221NX79QZP",
     "sellerCentralDomain": "sellercentral.amazon.pl",
     "vendorCentralDomain": "vendorcentral.amazon.pl",
-    "currencyCode": "PLN"
+    "vendorId": "A2R2221NX79QZP"
   },
   {
+    "advertisingApiDomain": "advertising-api.amazon.com",
     "code": "ca",
+    "currencyCode": "CAD",
+    "domain": "amazon.ca",
     "id": "A2EUQ1WTGCTBG2",
+    "imagesDomain": "images-na.ssl-images-amazon.com",
+    "mwsDomain": "mws.amazonservices.ca",
     "name": "Canada",
     "region": "na",
-    "domain": "amazon.ca",
-    "mwsDomain": "mws.amazonservices.ca",
-    "advertisingApiDomain": "advertising-api.amazon.com",
-    "imagesDomain": "images-na.ssl-images-amazon.com",
-    "vendorId": "A3DWYIK6Y9EEQB",
     "sellerCentralDomain": "sellercentral.amazon.ca",
     "vendorCentralDomain": "vendorcentral.amazon.ca",
-    "currencyCode": "CAD"
+    "vendorId": "A3DWYIK6Y9EEQB"
   },
   {
     "code": "ca-non-amazon",
+    "currencyCode": "CAD",
     "id": "A1MQXOICRS2Z7M",
     "name": "Canada - Non-Amazon",
-    "region": "na",
-    "currencyCode": "CAD"
+    "region": "na"
   },
   {
     "code": "mx",
+    "currencyCode": "MXN",
+    "domain": "amazon.com.mx",
     "id": "A1AM78C64UM0Y8",
+    "imagesDomain": "images-na.ssl-images-amazon.com",
+    "mwsDomain": "mws.amazonservices.com.mx",
     "name": "Mexico",
     "region": "na",
-    "domain": "amazon.com.mx",
-    "mwsDomain": "mws.amazonservices.com.mx",
-    "imagesDomain": "images-na.ssl-images-amazon.com",
-    "vendorId": "AVDBXBAVVSXLQ",
     "sellerCentralDomain": "sellercentral.amazon.com.mx",
     "vendorCentralDomain": "vendorcentral.amazon.com.mx",
-    "currencyCode": "MXN"
+    "vendorId": "AVDBXBAVVSXLQ"
   },
   {
     "code": "mx-non-amazon",
+    "currencyCode": "MXN",
     "id": "A3H6HPSLHAK3XG",
     "name": "Mexico - Non-Amazon",
-    "region": "na",
-    "currencyCode": "MXN"
+    "region": "na"
   },
   {
+    "advertisingApiDomain": "advertising-api.amazon.com",
     "code": "us",
+    "currencyCode": "USD",
+    "domain": "amazon.com",
     "id": "ATVPDKIKX0DER",
+    "imagesDomain": "images-na.ssl-images-amazon.com",
+    "mwsDomain": "mws.amazonservices.com",
     "name": "United States",
     "region": "na",
-    "domain": "amazon.com",
-    "mwsDomain": "mws.amazonservices.com",
-    "advertisingApiDomain": "advertising-api.amazon.com",
-    "imagesDomain": "images-na.ssl-images-amazon.com",
-    "vendorId": "ATVPDKIKX0DER",
     "sellerCentralDomain": "sellercentral.amazon.com",
     "vendorCentralDomain": "vendorcentral.amazon.com",
-    "currencyCode": "USD"
+    "vendorId": "ATVPDKIKX0DER"
   },
   {
     "code": "us-non-amazon",
+    "currencyCode": "USD",
     "id": "A2ZV50J4W1RKNI",
     "name": "United States - Non-Amazon",
-    "region": "na",
-    "currencyCode": "USD"
+    "region": "na"
   },
   {
     "code": "us-invoicing-shadow",
+    "currencyCode": "USD",
     "id": "AHRY1CZE9ZY4H",
     "name": "United States - Invoicing Shadow Marketplace",
-    "region": "na",
-    "currencyCode": "USD"
+    "region": "na"
   },
   {
     "code": "br",
+    "currencyCode": "BRL",
+    "domain": "amazon.com.br",
     "id": "A2Q3Y263D00KWC",
+    "imagesDomain": "images-na.ssl-images-amazon.com",
+    "mwsDomain": "mws.amazonservices.com",
     "name": "Brazil",
     "region": "na",
-    "domain": "amazon.com.br",
-    "mwsDomain": "mws.amazonservices.com",
-    "imagesDomain": "images-na.ssl-images-amazon.com",
-    "vendorId": "A1ZZFT5FULY4LN",
     "sellerCentralDomain": "sellercentral.amazon.com.br",
     "vendorCentralDomain": "vendorcentral.amazon.com.br",
-    "currencyCode": "BRL"
+    "vendorId": "A1ZZFT5FULY4LN"
   },
   {
+    "advertisingApiDomain": "advertising-api-eu.amazon.com",
     "code": "ae",
+    "currencyCode": "AED",
+    "domain": "amazon.ae",
     "id": "A2VIGQ35RCS4UG",
+    "imagesDomain": "images-eu.ssl-images-amazon.com",
+    "mwsDomain": "mws.amazonservices.ae",
     "name": "United Arab Emirates",
     "region": "eu",
-    "domain": "amazon.ae",
-    "mwsDomain": "mws.amazonservices.ae",
-    "advertisingApiDomain": "advertising-api-eu.amazon.com",
-    "imagesDomain": "images-eu.ssl-images-amazon.com",
-    "vendorId": "A2KKU8J8O8784X",
     "sellerCentralDomain": "sellercentral.amazon.ae",
     "vendorCentralDomain": "vendorcentral.amazon.me",
-    "currencyCode": "AED"
+    "vendorId": "A2KKU8J8O8784X"
   },
   {
     "code": "in",
+    "currencyCode": "INR",
+    "domain": "amazon.in",
     "id": "A21TJRUUN4KGV",
+    "imagesDomain": "images-eu.ssl-images-amazon.com",
+    "mwsDomain": "mws.amazonservices.in",
     "name": "India",
     "region": "eu",
-    "domain": "amazon.in",
-    "mwsDomain": "mws.amazonservices.in",
-    "imagesDomain": "images-eu.ssl-images-amazon.com",
     "sellerCentralDomain": "sellercentral.amazon.in",
-    "vendorCentralDomain": "vendorcentral.amazon.in",
-    "currencyCode": "INR"
+    "vendorCentralDomain": "vendorcentral.amazon.in"
   },
   {
+    "advertisingApiDomain": "advertising-api-fe.amazon.com",
     "code": "au",
+    "currencyCode": "AUD",
+    "domain": "amazon.com.au",
     "id": "A39IBJ37TRP1C6",
+    "imagesDomain": "images-fe.ssl-images-amazon.com",
+    "mwsDomain": "mws.amazonservices.com.au",
     "name": "Australia",
     "region": "fe",
-    "domain": "amazon.com.au",
-    "mwsDomain": "mws.amazonservices.com.au",
-    "advertisingApiDomain": "advertising-api-fe.amazon.com",
-    "imagesDomain": "images-fe.ssl-images-amazon.com",
-    "vendorId": "ANEGB3WVEVKZB",
     "sellerCentralDomain": "sellercentral.amazon.com.au",
     "vendorCentralDomain": "vendorcentral.amazon.com.au",
-    "currencyCode": "AUD"
+    "vendorId": "ANEGB3WVEVKZB"
   },
   {
+    "advertisingApiDomain": "advertising-api-fe.amazon.com",
     "code": "jp",
+    "currencyCode": "JPY",
+    "domain": "amazon.co.jp",
     "id": "A1VC38T7YXB528",
+    "imagesDomain": "images-fe.ssl-images-amazon.com",
+    "mwsDomain": "mws.amazonservices.jp",
     "name": "Japan",
     "region": "fe",
-    "domain": "amazon.co.jp",
-    "mwsDomain": "mws.amazonservices.jp",
-    "advertisingApiDomain": "advertising-api-fe.amazon.com",
-    "imagesDomain": "images-fe.ssl-images-amazon.com",
-    "vendorId": "AN1VRQENFRJN5",
     "sellerCentralDomain": "sellercentral.amazon.co.jp",
     "vendorCentralDomain": "vendorcentral.amazon.co.jp",
-    "currencyCode": "JPY"
+    "vendorId": "AN1VRQENFRJN5"
   },
   {
     "code": "sg",
+    "currencyCode": "SGD",
+    "domain": "amazon.sg",
     "id": "A19VAU5U5O7RUS",
+    "imagesDomain": "images-fe.ssl-images-amazon.com",
+    "mwsDomain": "mws-fe.amazonservices.com",
     "name": "Singapore",
     "region": "fe",
-    "domain": "amazon.sg",
-    "mwsDomain": "mws-fe.amazonservices.com",
-    "imagesDomain": "images-fe.ssl-images-amazon.com",
     "sellerCentralDomain": "sellercentral.amazon.sg",
-    "vendorCentralDomain": "vendorcentral.amazon.com.sg",
-    "currencyCode": "SGD"
+    "vendorCentralDomain": "vendorcentral.amazon.com.sg"
   }
 ]
