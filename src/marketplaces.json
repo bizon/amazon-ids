@@ -1,5 +1,14 @@
 [
   {
+    "code": "be",
+    "id": "AMEN7PMS3EDWL",
+    "name": "Belgium",
+    "region": "eu",
+    "mwsDomain": "mws-eu.amazonservices.com",
+    "imagesDomain": "images-eu.ssl-images-amazon.com",
+    "currencyCode": "EUR"
+  },
+  {
     "code": "de",
     "id": "A1PA6795UKMFR9",
     "name": "Germany",
