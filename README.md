@@ -5,6 +5,13 @@
 [![npm version](https://badgen.net/npm/v/@bizon/amazon-ids)](https://www.npmjs.com/package/@bizon/amazon-ids)
 [![XO code style](https://badgen.net/badge/code%20style/XO/cyan)](https://github.com/xojs/xo)
 
+[<img src="https://files.bizon.solutions/images/logo/bizon-horizontal.png" alt="Bizon" width="250"/>](https://www.bizon.solutions?utm_source=github&utm_medium=readme&utm_campaign=amazon-ids)
+
+## CI
+
+[![Tests](https://github.com/bizon/amazon-ids/actions/workflows/tests.yml/badge.svg)](https://github.com/bizon/amazon-ids/actions/workflows/tests.yml)
+[![Release](https://github.com/bizon/amazon-ids/actions/workflows/release.yml/badge.svg)](https://github.com/bizon/amazon-ids/actions/workflows/release.yml)
+
 ## Getting started
 
 ```bash
