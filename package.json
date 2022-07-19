@@ -30,8 +30,8 @@
   "devDependencies": {
     "@bizon/semantic-release-config": "^1.2.0",
     "@tsconfig/node14": "^1.0.3",
-    "@types/jest": "^28.1.4",
-    "jest": "^28.1.2",
+    "@types/jest": "^28.1.6",
+    "jest": "^28.1.3",
     "jest-junit": "^14.0.0",
     "microbundle": "^0.15.0",
     "semantic-release": "^19.0.3",
