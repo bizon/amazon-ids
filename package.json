@@ -31,6 +31,7 @@
     "@bizon/semantic-release-config": "^1.2.0",
     "@tsconfig/node14": "^1.0.3",
     "@types/jest": "^28.1.6",
+    "eslint-config-xo-bizon": "^1.0.0",
     "jest": "^28.1.3",
     "jest-junit": "^14.0.0",
     "microbundle": "^0.15.0",
@@ -58,13 +59,10 @@
     ]
   },
   "xo": {
+    "extends": "xo-bizon",
     "semicolon": false,
     "space": 2,
-    "prettier": true,
-    "rules": {
-      "import/extensions": "off",
-      "unicorn/prefer-module": "off"
-    }
+    "prettier": true
   },
   "prettier": {
     "printWidth": 100

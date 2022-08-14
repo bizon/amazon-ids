@@ -1,4 +1,4 @@
-import {getMarketplaceById, getMarketplaceByDomain, getMarketplaceByCode} from '../src'
+import {getMarketplaceByCode, getMarketplaceByDomain, getMarketplaceById} from '../src'
 
 describe('index', () => {
   describe('getMarketplaceById', () => {
