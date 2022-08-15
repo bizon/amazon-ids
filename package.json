@@ -31,7 +31,7 @@
     "@bizon/semantic-release-config": "^1.2.0",
     "@tsconfig/node16": "^1.0.3",
     "@types/jest": "^28.1.6",
-    "eslint-config-xo-bizon": "^1.0.0",
+    "eslint-config-xo-bizon": "^1.0.1",
     "jest": "^28.1.3",
     "jest-junit": "^14.0.0",
     "microbundle": "^0.15.0",
