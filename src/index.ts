@@ -2,7 +2,7 @@ import mem from 'mem'
 
 import _marketplaces from './marketplaces.json'
 
-export type Marketplace = {
+export interface Marketplace {
   code: string
   id: string
   name: string
