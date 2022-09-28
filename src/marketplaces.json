@@ -7,7 +7,9 @@
     "imagesDomain": "images-eu.ssl-images-amazon.com",
     "mwsDomain": "mws-eu.amazonservices.com",
     "name": "Belgium",
-    "region": "eu"
+    "region": "eu",
+    "sellerCentralDomain": "sellercentral.amazon.com.be",
+    "vendorCentralDomain": "vendorcentral.amazon.com.be"
   },
   {
     "advertisingApiDomain": "advertising-api-eu.amazon.com",
