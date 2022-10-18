@@ -9,7 +9,8 @@
     "name": "Belgium",
     "region": "eu",
     "sellerCentralDomain": "sellercentral.amazon.com.be",
-    "vendorCentralDomain": "vendorcentral.amazon.com.be"
+    "vendorCentralDomain": "vendorcentral.amazon.com.be",
+    "vendorId": "A3Q3FYJVX702M2"
   },
   {
     "advertisingApiDomain": "advertising-api-eu.amazon.com",
