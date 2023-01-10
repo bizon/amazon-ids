@@ -28,7 +28,7 @@
     "mem": "^8.1.1"
   },
   "devDependencies": {
-    "@bizon/semantic-release-config": "^1.2.0",
+    "@bizon/semantic-release-config": "^2.0.0",
     "@tsconfig/node16": "^1.0.3",
     "@types/jest": "^29.2.5",
     "eslint-config-xo-bizon": "^1.1.2",
