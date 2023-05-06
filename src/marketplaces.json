@@ -341,5 +341,17 @@
     "region": "fe",
     "sellerCentralDomain": "sellercentral.amazon.sg",
     "vendorCentralDomain": "vendorcentral.amazon.com.sg"
+  },
+  {
+    "code": "za",
+    "currencyCode": "ZAR",
+    "domain": "amazon.co.za",
+    "id": "AE08WJ6YKNBMC",
+    "imagesDomain": "images-eu.ssl-images-amazon.com",
+    "mwsDomain": "mws-eu.amazonservices.com",
+    "name": "South Africa",
+    "region": "eu",
+    "sellerCentralDomain": "sellercentral.amazon.co.za",
+    "vendorCentralDomain": "vendorcentral.amazon.co.za"
   }
 ]
