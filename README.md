@@ -23,7 +23,7 @@ npm install --save @bizon/amazon-ids
 ### `marketplaces`
 
 ```js
-const {marketplaces} = require('@bizon/amazon-ids')
+const { marketplaces } = require("@bizon/amazon-ids");
 
 for (const marketplace of marketplaces) {
   // console.log(marketplace)
@@ -33,9 +33,9 @@ for (const marketplace of marketplaces) {
 ### `getMarketplaceById(id)`
 
 ```js
-const {getMarketplaceById} = require('@bizon/amazon-ids')
+const { getMarketplaceById } = require("@bizon/amazon-ids");
 
-getMarketplaceById('ATVPDKIKX0DER')
+getMarketplaceById("ATVPDKIKX0DER");
 
 /*
 {
@@ -44,7 +44,6 @@ getMarketplaceById('ATVPDKIKX0DER')
   name: 'United States',
   region: 'na',
   domain: 'amazon.com',
-  mwsDomain: 'mws.amazonservices.com',
   advertisingApiDomain: 'advertising-api.amazon.com',
   imagesDomain: 'images-na.ssl-images-amazon.com',
   vendorId: 'ATVPDKIKX0DER',
@@ -58,7 +57,7 @@ getMarketplaceById('ATVPDKIKX0DER')
 It’s also possible to find multi-channel marketplaces:
 
 ```js
-getMarketplaceById('A2ZV50J4W1RKNI')
+getMarketplaceById("A2ZV50J4W1RKNI");
 
 /*
 {
@@ -74,9 +73,9 @@ getMarketplaceById('A2ZV50J4W1RKNI')
 ### `getMarketplaceByCode(code)`
 
 ```js
-const {getMarketplaceByCode} = require('@bizon/amazon-ids')
+const { getMarketplaceByCode } = require("@bizon/amazon-ids");
 
-getMarketplaceByCode('DE')
+getMarketplaceByCode("DE");
 
 /*
 {
@@ -85,7 +84,6 @@ getMarketplaceByCode('DE')
   name: 'Germany',
   region: 'eu',
   domain: 'amazon.de',
-  mwsDomain: 'mws-eu.amazonservices.com',
   advertisingApiDomain: 'advertising-api-eu.amazon.com',
   imagesDomain: 'images-eu.ssl-images-amazon.com',
   vendorId: 'A3JWKAKR8XB7XF',
@@ -99,9 +97,9 @@ getMarketplaceByCode('DE')
 ### `getMarketplaceByDomain(domain)`
 
 ```js
-const {getMarketplaceByDomain} = require('@bizon/amazon-ids')
+const { getMarketplaceByDomain } = require("@bizon/amazon-ids");
 
-getMarketplaceByDomain('Amazon.com.mx')
+getMarketplaceByDomain("Amazon.com.mx");
 
 /*
 {
@@ -110,73 +108,12 @@ getMarketplaceByDomain('Amazon.com.mx')
   name: 'Mexico',
   region: 'na',
   domain: 'amazon.com.mx',
-  mwsDomain: 'mws.amazonservices.com.mx',
   imagesDomain: 'images-na.ssl-images-amazon.com',
   vendorId: 'AVDBXBAVVSXLQ',
   sellerCentralDomain: 'sellercentral.amazon.com.mx',
   vendorCentralDomain: 'vendorcentral.amazon.com.mx',
   currencyCode: 'MXN'
 }
-*/
-```
-
-### `getMarketplacesByMwsDomain(domain)`
-
-```js
-const {getMarketplacesByMwsDomain} = require('@bizon/amazon-ids')
-
-getMarketplacesByMwsDomain('mws.amazonservices.com')
-
-/*
-[
-  {
-    code: 'us',
-    id: 'ATVPDKIKX0DER',
-    name: 'United States',
-    region: 'na',
-    domain: 'amazon.com',
-    …
-  },
-  {
-    code: 'br',
-    id: 'A2Q3Y263D00KWC',
-    name: 'Brazil',
-    region: 'na',
-    domain: 'amazon.com.br',
-    …
-  }
-]
-*/
-```
-
-### `getMarketplacesByMwsRegion(mwsRegion)`
-
-MWS Regions is a concept introduced in [@bizon/mws-sdk](https://github.com/bizon/mws-sdk) – see [its readme](https://github.com/bizon/mws-sdk#region-and-marketplaces) to learn more about it.
-
-```js
-const {getMarketplacesByMwsRegion} = require('@bizon/amazon-ids')
-
-getMarketplacesByMwsRegion('na')
-
-/*
-[
-  {
-    code: 'us',
-    id: 'ATVPDKIKX0DER',
-    name: 'United States',
-    region: 'na',
-    domain: 'amazon.com',
-    …
-  },
-  {
-    code: 'br',
-    id: 'A2Q3Y263D00KWC',
-    name: 'Brazil',
-    region: 'na',
-    domain: 'amazon.com.br',
-    …
-  }
-]
 */
 ```
 

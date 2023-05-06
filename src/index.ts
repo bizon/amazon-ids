@@ -8,7 +8,6 @@ export interface Marketplace {
   name: string
   region: string
   domain?: string
-  mwsDomain?: string
   advertisingApiDomain?: string
   imagesDomain?: string
   vendorId?: string
@@ -16,23 +15,6 @@ export interface Marketplace {
   vendorCentralDomain?: string
   currencyCode: string
 }
-
-const mwsRegionDomains = {
-  // Generic MWS regions:
-  na: 'mws.amazonservices.com',
-  eu: 'mws-eu.amazonservices.com',
-  fe: 'mws-fe.amazonservices.com',
-
-  // Country specific MWS regions:
-  ca: 'mws.amazonservices.ca',
-  mx: 'mws.amazonservices.com.mx',
-  ae: 'mws.amazonservices.ae',
-  in: 'mws.amazonservices.in',
-  jp: 'mws.amazonservices.jp',
-  au: 'mws.amazonservices.com.au',
-}
-
-type MwsRegion = keyof typeof mwsRegionDomains
 
 /**
  * All the available marketplaces
@@ -72,28 +54,4 @@ export const getMarketplaceByDomain = mem((domain: string) => {
   }
 
   return marketplaces.find((marketplace) => marketplace.domain === domain)
-})
-
-/**
- * Get marketplaces by an MWS domain
- * @param domain The MWS domain
- * @returns The marketplaces
- */
-export const getMarketplacesByMwsDomain = mem((domain: string) =>
-  marketplaces.filter((marketplace) => marketplace.mwsDomain === domain),
-)
-
-/**
- * Get marketplaces by an MWS region
- * @param mwsRegion The MWS region
- * @returns The marketplaces
- */
-export const getMarketplacesByMwsRegion = mem((mwsRegion: MwsRegion) => {
-  const mwsDomain = mwsRegionDomains[mwsRegion]
-
-  if (!mwsDomain) {
-    return []
-  }
-
-  return getMarketplacesByMwsDomain(mwsDomain)
 })
