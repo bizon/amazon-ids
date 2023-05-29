@@ -16,17 +16,21 @@ jobs:
         with:
           token: ${{ secrets.BOT_GITHUB_TOKEN_PUBLIC }}
 
+      - uses: pnpm/action-setup@v2
+        with:
+          version: "latest"
+
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: yarn
+          cache: pnpm
 
       - name: Install dependencies
-        run: yarn --frozen-lockfile --non-interactive --prefer-offline
+        run: pnpm install --frozen-lockfile
 
       - name: Build output
-        run: yarn build
+        run: pnpm build
 
       - name: Run semantic release
         env:
@@ -36,4 +40,4 @@ jobs:
           GIT_AUTHOR_EMAIL: ${{ secrets.BOT_EMAIL }}
           GIT_COMMITTER_NAME: ${{ secrets.BOT_NAME }}
           GIT_COMMITTER_EMAIL: ${{ secrets.BOT_EMAIL }}
-        run: yarn semantic-release
+        run: pnpm semantic-release
