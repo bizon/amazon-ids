@@ -1,5 +1,3 @@
-import mem from 'mem'
-
 import _marketplaces from './marketplaces.json'
 
 export interface Marketplace {
@@ -26,27 +24,27 @@ export const marketplaces: Marketplace[] = _marketplaces
  * @param id  The marketplace's id
  * @returns The marketplace
  */
-export const getMarketplaceById = mem((id: string) =>
-  marketplaces.find((marketplace) => marketplace.id === id),
-)
+export function getMarketplaceById(id: string) {
+  return marketplaces.find((marketplace) => marketplace.id === id)
+}
 
 /**
  * Get a marketplace by its code
  * @param code The marketplace's code
  * @returns The markerplace
  */
-export const getMarketplaceByCode = mem((code: string) => {
+export function getMarketplaceByCode(code: string) {
   code = code.toLowerCase()
 
   return marketplaces.find((marketplace) => marketplace.code === code)
-})
+}
 
 /**
  * Get a marketplace by its domain
  * @param domain The marketplace's domain
  * @returns The marketplace
  */
-export const getMarketplaceByDomain = mem((domain: string) => {
+export function getMarketplaceByDomain(domain: string) {
   domain = domain.toLowerCase()
 
   if (domain.startsWith('www.')) {
@@ -54,4 +52,4 @@ export const getMarketplaceByDomain = mem((domain: string) => {
   }
 
   return marketplaces.find((marketplace) => marketplace.domain === domain)
-})
+}
