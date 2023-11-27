@@ -15,8 +15,8 @@ devDependencies:
     specifier: ^18.2.2
     version: 18.2.2
   '@types/jest':
-    specifier: ^29.5.8
-    version: 29.5.8
+    specifier: ^29.5.10
+    version: 29.5.10
   eslint-config-xo-bizon:
     specifier: ^2.0.0
     version: 2.0.0
@@ -2392,8 +2392,8 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/jest@29.5.8:
-    resolution: {integrity: sha512-fXEFTxMV2Co8ZF5aYFJv+YeA08RTYJfhtN5c9JSv/mFEMe+xxjufCb+PHL+bJcMs/ebPUsBu+UNTEz+ydXrR6g==}
+  /@types/jest@29.5.10:
+    resolution: {integrity: sha512-tE4yxKEphEyxj9s4inideLHktW/x6DwesIwWZ9NN1FKf9zbJYsnhBoA9vrHA/IuIOKwPa5PcFBNV4lpMIOEzyQ==}
     dependencies:
       expect: 29.7.0
       pretty-format: 29.7.0
