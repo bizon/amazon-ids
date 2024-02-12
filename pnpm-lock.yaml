@@ -18,8 +18,8 @@ devDependencies:
     specifier: ^29.5.11
     version: 29.5.11
   eslint-config-xo-bizon:
-    specifier: ^2.0.0
-    version: 2.0.0
+    specifier: ^3.0.1
+    version: 3.0.1
   jest:
     specifier: ^29.7.0
     version: 29.7.0(@types/node@20.2.5)(ts-node@10.9.2)
@@ -4053,9 +4053,9 @@ packages:
       eslint: 8.45.0
     dev: true
 
-  /eslint-config-xo-bizon@2.0.0:
-    resolution: {integrity: sha512-aYoqM6cVqyq7oWKjZjHmJPGT6UdepymOxdYRhDOzGJ5VvfTwN5l16XdnZbM98oGg2AAWto5z2vvuacHQVOTIaQ==}
-    engines: {node: '>=16'}
+  /eslint-config-xo-bizon@3.0.1:
+    resolution: {integrity: sha512-B9RcZDhxlSMBF+shcCuT80qbNgpounAMmBTWHULaKgOpp/jPGCDo6FH5/cC1MLDHipoNKaqEjWMI+feZVieFEA==}
+    engines: {node: '>=18'}
     dev: true
 
   /eslint-config-xo-typescript@1.0.1(@typescript-eslint/eslint-plugin@6.1.0)(@typescript-eslint/parser@6.1.0)(eslint@8.45.0)(typescript@5.3.3):
