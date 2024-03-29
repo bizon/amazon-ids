@@ -249,6 +249,20 @@
     "region": "na"
   },
   {
+    "code": "us-amazon-pay",
+    "currencyCode": "USD",
+    "id": "AGWSWK15IEJJ7",
+    "name": "United States - Amazon Pay",
+    "region": "na"
+  },
+  {
+    "code": "us-amazon-pay-sandbox",
+    "currencyCode": "USD",
+    "id": "A3BXB0YN3XH17H",
+    "name": "United States - Amazon Pay Sandbox",
+    "region": "na"
+  },
+  {
     "code": "br",
     "currencyCode": "BRL",
     "domain": "amazon.com.br",
