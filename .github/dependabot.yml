@@ -11,3 +11,8 @@ updates:
     versioning-strategy: increase
     schedule:
       interval: weekly
+    groups:
+      lint:
+        patterns:
+          - "xo"
+          - "eslint-config-xo-bizon"
