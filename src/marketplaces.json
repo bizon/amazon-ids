@@ -345,5 +345,16 @@
     "region": "eu",
     "sellerCentralDomain": "sellercentral.amazon.co.za",
     "vendorCentralDomain": "vendorcentral.amazon.co.za"
+  },
+  {
+    "code": "ie",
+    "currencyCode": "EUR",
+    "domain": "amazon.ie",
+    "id": "A28R8C7NBKEWEA",
+    "imagesDomain": "images-eu.ssl-images-amazon.com",
+    "name": "Ireland",
+    "region": "eu",
+    "sellerCentralDomain": "sellercentral-europe.amazon.com",
+    "vendorCentralDomain": "vendorcentral.amazon.ie"
   }
 ]
