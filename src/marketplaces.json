@@ -344,7 +344,8 @@
     "name": "South Africa",
     "region": "eu",
     "sellerCentralDomain": "sellercentral.amazon.co.za",
-    "vendorCentralDomain": "vendorcentral.amazon.co.za"
+    "vendorCentralDomain": "vendorcentral.amazon.co.za",
+    "vendorId": "A34KVLZUJN6MA"
   },
   {
     "code": "ie",
