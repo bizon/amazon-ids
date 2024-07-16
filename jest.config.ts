@@ -1,12 +1,12 @@
-import {type Config} from '@jest/types'
+import {type JestConfigWithTsJest} from 'ts-jest'
 
-const config: Config.InitialOptions = {
-  preset: 'ts-jest',
+const config: JestConfigWithTsJest = {
+  preset: 'ts-jest/presets/default-esm',
   testEnvironment: 'node',
   clearMocks: true,
   collectCoverage: true,
   collectCoverageFrom: ['src/**/*.ts'],
-  coverageReporters: ['lcov', 'text-summary'],
+  coverageReporters: ['text-summary', 'cobertura'],
 }
 
 export default config
