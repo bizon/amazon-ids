@@ -3,6 +3,7 @@
 > Collection of Amazon identifiers
 
 [![npm version](https://badgen.net/npm/v/@bizon/amazon-ids)](https://www.npmjs.com/package/@bizon/amazon-ids)
+[![codecov](https://codecov.io/github/bizon/amazon-ids/graph/badge.svg?token=U6I6anuPfw)](https://codecov.io/github/bizon/amazon-ids)
 [![XO code style](https://badgen.net/badge/code%20style/XO/cyan)](https://github.com/xojs/xo)
 
 [<img src="https://files.bizon.solutions/images/logo/bizon-horizontal.png" alt="Bizon" width="250"/>](https://www.bizon.solutions?utm_source=github&utm_medium=readme&utm_campaign=amazon-ids)
