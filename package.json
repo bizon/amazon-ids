@@ -58,5 +58,6 @@
   },
   "release": {
     "extends": "@bizon/semantic-release-config"
-  }
+  },
+  "packageManager": "pnpm@9.3.0"
 }
