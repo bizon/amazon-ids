@@ -39,7 +39,7 @@
     "ts-jest": "^29.2.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.3",
-    "xo": "^0.58.0"
+    "xo": "^0.59.2"
   },
   "keywords": [
     "amazon",
