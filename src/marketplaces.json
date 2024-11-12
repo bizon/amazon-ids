@@ -143,7 +143,8 @@
     "imagesDomain": "images-eu.ssl-images-amazon.com",
     "name": "Saudi Arabia",
     "region": "eu",
-    "sellerCentralDomain": "sellercentral.amazon.com.sa",
+    "sellerCentralDomain": "sellercentral.amazon.sa",
+    "vendorCentralDomain": "vendorcentral.amazon.me",
     "vendorId": "A2XPWB6MYN7ZDK"
   },
   {
