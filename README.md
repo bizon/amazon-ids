@@ -1,6 +1,6 @@
 # amazon-ids
 
-> Collection of Amazon identifiers
+Collection of Amazon identifiers
 
 [![npm version](https://img.shields.io/npm/v/@bizon/amazon-ids)](https://www.npmjs.com/package/@bizon/amazon-ids)
 [![codecov](https://codecov.io/github/bizon/amazon-ids/graph/badge.svg?token=U6I6anuPfw)](https://codecov.io/github/bizon/amazon-ids)
