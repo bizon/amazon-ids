@@ -357,6 +357,7 @@
     "name": "Ireland",
     "region": "eu",
     "sellerCentralDomain": "sellercentral-europe.amazon.com",
-    "vendorCentralDomain": "vendorcentral.amazon.ie"
+    "vendorCentralDomain": "vendorcentral.amazon.ie",
+    "vendorId": "A2QHQAREJ10JUZ"
   }
 ]
