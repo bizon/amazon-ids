@@ -1,4 +1,4 @@
-import _marketplaces from './marketplaces.json'
+import _marketplaces from './marketplaces.json' with {type: 'json'}
 
 export interface Marketplace {
   code: string
