@@ -1,8 +1,7 @@
 {
-  "extends": "@tsconfig/node22/tsconfig.json",
+  "extends": "@tsconfig/node24/tsconfig.json",
   "compilerOptions": {
     "resolveJsonModule": true,
-    "moduleResolution": "node16",
     "isolatedModules": true,
     "rootDir": "src",
     "outDir": "dist"
