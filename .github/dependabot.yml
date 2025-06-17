@@ -12,6 +12,13 @@ updates:
     schedule:
       interval: weekly
     groups:
+      jest:
+        patterns:
+          - "@jest/types"
+          - "@swc/core"
+          - "@swc/jest"
+          - "@types/jest"
+          - "jest"
       lint:
         patterns:
           - "xo"
