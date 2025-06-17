@@ -24,7 +24,7 @@ npm install --save @bizon/amazon-ids
 ### `marketplaces`
 
 ```js
-const { marketplaces } = require("@bizon/amazon-ids");
+import { marketplaces } from "@bizon/amazon-ids";
 
 for (const marketplace of marketplaces) {
   // console.log(marketplace)
@@ -34,7 +34,7 @@ for (const marketplace of marketplaces) {
 ### `getMarketplaceById(id)`
 
 ```js
-const { getMarketplaceById } = require("@bizon/amazon-ids");
+import { getMarketplaceById } from "@bizon/amazon-ids";
 
 getMarketplaceById("ATVPDKIKX0DER");
 
@@ -74,7 +74,7 @@ getMarketplaceById("A2ZV50J4W1RKNI");
 ### `getMarketplaceByCode(code)`
 
 ```js
-const { getMarketplaceByCode } = require("@bizon/amazon-ids");
+import { getMarketplaceByCode } from "@bizon/amazon-ids";
 
 getMarketplaceByCode("DE");
 
@@ -98,7 +98,7 @@ getMarketplaceByCode("DE");
 ### `getMarketplaceByDomain(domain)`
 
 ```js
-const { getMarketplaceByDomain } = require("@bizon/amazon-ids");
+import { getMarketplaceByDomain } from "@bizon/amazon-ids";
 
 getMarketplaceByDomain("Amazon.com.mx");
 
