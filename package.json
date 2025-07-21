@@ -39,7 +39,7 @@
     "@swc/jest": "^0.2.39",
     "@tsconfig/node24": "^24.0.1",
     "@types/jest": "^30.0.0",
-    "@types/node": "^24.0.14",
+    "@types/node": "^24.0.15",
     "eslint-config-xo-bizon": "^3.0.3",
     "jest": "^30.0.4",
     "semantic-release": "^24.2.7",
