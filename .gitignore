@@ -1,5 +1,6 @@
 node_modules/
 coverage/
 reports/
+junit.xml
 
 dist/
