@@ -1,6 +1,6 @@
 {
   "name": "@bizon/amazon-ids",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "Collection of Amazon identifiers",
   "repository": "https://github.com/bizon/amazon-ids",
   "author": "Bertrand Marron <bertrand.marron@gmail.com>",
