@@ -1,8 +1,4 @@
-import {
-  getMarketplaceByCode,
-  getMarketplaceByDomain,
-  getMarketplaceById,
-} from '../src/index.js'
+import {getMarketplaceByCode, getMarketplaceByDomain, getMarketplaceById} from '../src/index.js'
 
 describe('index', () => {
   describe('getMarketplaceById', () => {
@@ -41,12 +37,8 @@ describe('index', () => {
 
     it('should support domains with the www subdomain', () => {
       expect(getMarketplaceByDomain('www.amazon.fr')?.domain).toBe('amazon.fr')
-      expect(getMarketplaceByDomain('www.amazon.co.uk')?.domain).toBe(
-        'amazon.co.uk',
-      )
-      expect(getMarketplaceByDomain('www.amazon.com')?.domain).toBe(
-        'amazon.com',
-      )
+      expect(getMarketplaceByDomain('www.amazon.co.uk')?.domain).toBe('amazon.co.uk')
+      expect(getMarketplaceByDomain('www.amazon.com')?.domain).toBe('amazon.com')
       expect(getMarketplaceByDomain('www.Amazon.de')?.domain).toBe('amazon.de')
       expect(getMarketplaceByDomain('WWW.amazoN.it')?.domain).toBe('amazon.it')
     })
