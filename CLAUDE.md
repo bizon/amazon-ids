@@ -15,7 +15,7 @@ pnpm test        # tests (Jest with SWC)
 ```
 
 - `pnpm xo --fix <path>` to auto-fix lint issues in a specific file
-- Build: `pnpm build` (tsup, dual CJS + ESM output)
+- Build: `pnpm build` (tsdown, dual CJS + ESM output)
 
 ## Commit and PR conventions
 
@@ -34,7 +34,7 @@ src/
   marketplaces.json     # Marketplace data (34 entries)
 __tests__/
   index.spec.ts         # Jest test suite
-dist/                   # Build output (tsup): index.js (ESM), index.cjs (CJS), type declarations
+dist/                   # Build output (tsdown): index.mjs (ESM), index.cjs (CJS), type declarations
 .github/
   workflows/
     tests.yml           # CI: lint + type check + Jest on every PR and push to master
@@ -45,7 +45,7 @@ dist/                   # Build output (tsup): index.js (ESM), index.cjs (CJS), 
 
 ## Code patterns
 
-- **Dual output**: tsup compiles to both CommonJS (`dist/index.cjs`) and ES Modules (`dist/index.js`), with type declarations
+- **Dual output**: tsdown compiles to both CommonJS (`dist/index.cjs`) and ES Modules (`dist/index.mjs`), with type declarations
 - **ESM-first**: package type is `module`, tests run with `NODE_OPTIONS=--experimental-vm-modules`
 - **Package runner**: use `pnpx` instead of `npx`
 - **Node version**: 24 (see `.node-version`)
