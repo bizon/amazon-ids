@@ -15,23 +15,23 @@ export interface Marketplace {
 }
 
 /**
- * All the available marketplaces
+ All the available marketplaces
  */
 export const marketplaces: Marketplace[] = _marketplaces
 
 /**
- * Get a marketplace by its id
- * @param id  The marketplace's id
- * @returns The marketplace
+ Get a marketplace by its id
+ @param id The Amazon marketplace identifier to look up
+ @returns The matching marketplace, or `undefined` if none matches
  */
 export function getMarketplaceById(id: string) {
   return marketplaces.find((marketplace) => marketplace.id === id)
 }
 
 /**
- * Get a marketplace by its code
- * @param code The marketplace's code
- * @returns The markerplace
+ Get a marketplace by its code
+ @param code The country code to look up (case-insensitive)
+ @returns The matching marketplace, or `undefined` if none matches
  */
 export function getMarketplaceByCode(code: string) {
   code = code.toLowerCase()
@@ -40,9 +40,9 @@ export function getMarketplaceByCode(code: string) {
 }
 
 /**
- * Get a marketplace by its domain
- * @param domain The marketplace's domain
- * @returns The marketplace
+ Get a marketplace by its domain
+ @param domain The domain to look up (case-insensitive, `www.` prefix stripped)
+ @returns The matching marketplace, or `undefined` if none matches
  */
 export function getMarketplaceByDomain(domain: string) {
   domain = domain.toLowerCase()

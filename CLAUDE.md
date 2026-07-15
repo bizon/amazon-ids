@@ -28,11 +28,11 @@ pnpm test        # tests (Jest with SWC)
 
 ## Project structure
 
-```
+```text
 src/
   index.ts              # Main entry point — exports Marketplace type and lookup functions
   marketplaces.json     # Marketplace data (34 entries)
-__tests__/
+tests/
   index.spec.ts         # Jest test suite
 dist/                   # Build output (tsdown): index.mjs (ESM), index.cjs (CJS), type declarations
 .github/
