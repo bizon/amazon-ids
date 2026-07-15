@@ -24,7 +24,7 @@ npm install --save @bizon/amazon-ids
 ### `marketplaces`
 
 ```js
-import { marketplaces } from "@bizon/amazon-ids";
+import {marketplaces} from '@bizon/amazon-ids'
 
 for (const marketplace of marketplaces) {
   // console.log(marketplace)
@@ -34,9 +34,9 @@ for (const marketplace of marketplaces) {
 ### `getMarketplaceById(id)`
 
 ```js
-import { getMarketplaceById } from "@bizon/amazon-ids";
+import {getMarketplaceById} from '@bizon/amazon-ids'
 
-getMarketplaceById("ATVPDKIKX0DER");
+getMarketplaceById('ATVPDKIKX0DER')
 
 /*
 {
@@ -58,7 +58,7 @@ getMarketplaceById("ATVPDKIKX0DER");
 It’s also possible to find multi-channel marketplaces:
 
 ```js
-getMarketplaceById("A2ZV50J4W1RKNI");
+getMarketplaceById('A2ZV50J4W1RKNI')
 
 /*
 {
@@ -74,9 +74,9 @@ getMarketplaceById("A2ZV50J4W1RKNI");
 ### `getMarketplaceByCode(code)`
 
 ```js
-import { getMarketplaceByCode } from "@bizon/amazon-ids";
+import {getMarketplaceByCode} from '@bizon/amazon-ids'
 
-getMarketplaceByCode("DE");
+getMarketplaceByCode('DE')
 
 /*
 {
@@ -98,9 +98,9 @@ getMarketplaceByCode("DE");
 ### `getMarketplaceByDomain(domain)`
 
 ```js
-import { getMarketplaceByDomain } from "@bizon/amazon-ids";
+import {getMarketplaceByDomain} from '@bizon/amazon-ids'
 
-getMarketplaceByDomain("Amazon.com.mx");
+getMarketplaceByDomain('Amazon.com.mx')
 
 /*
 {
@@ -124,7 +124,7 @@ MIT
 
 ## Miscellaneous
 
-```
+```text
     ╚⊙ ⊙╝
   ╚═(███)═╝
  ╚═(███)═╝
