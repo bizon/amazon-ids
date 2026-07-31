@@ -1,7 +1,6 @@
 {
   "extends": "@tsconfig/node24/tsconfig.json",
   "compilerOptions": {
-    "resolveJsonModule": true,
     "isolatedModules": true,
     "rootDir": "src",
     "outDir": "dist"

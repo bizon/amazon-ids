@@ -21,6 +21,23 @@ npm install --save @bizon/amazon-ids
 
 ## API
 
+All three lookup functions are overloaded: passing a known literal (or a value typed
+with one of the unions below) returns a `Marketplace`, while passing an arbitrary
+`string` returns `Marketplace | undefined`.
+
+```ts
+import {getMarketplaceByCode, type MarketplaceCode} from '@bizon/amazon-ids'
+
+getMarketplaceByCode('fr').domain // Marketplace — no optional chaining needed
+getMarketplaceByCode(someString)?.domain // Marketplace | undefined
+```
+
+The exported unions are `MarketplaceCode`, `MarketplaceId`, `MarketplaceRegion` and
+`MarketplaceDomain`. `MarketplaceCode` and `MarketplaceDomain` only cover the
+marketplaces served by an Amazon storefront — the multi-channel (`*-non-amazon`),
+invoicing and Amazon Pay entries have no domain, so their codes are not part of the
+union and looking them up returns `Marketplace | undefined`.
+
 ### `marketplaces`
 
 ```js

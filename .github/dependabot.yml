@@ -20,10 +20,9 @@ updates:
     groups:
       jest:
         patterns:
-          - "@jest/types"
+          - "@jest/*"
           - "@swc/core"
           - "@swc/jest"
-          - "@types/jest"
           - "jest"
           - "jest-junit"
       lint:
