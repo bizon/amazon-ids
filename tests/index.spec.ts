@@ -1,3 +1,5 @@
+import {describe, expect, it} from '@jest/globals'
+
 import {getMarketplaceByCode, getMarketplaceByDomain, getMarketplaceById} from '../src/index.js'
 
 describe('index', () => {

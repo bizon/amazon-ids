@@ -30,10 +30,11 @@ pnpm test        # tests (Jest with SWC)
 
 ```text
 src/
-  index.ts              # Main entry point — exports Marketplace type and lookup functions
-  marketplaces.json     # Marketplace data (34 entries)
+  index.ts              # Main entry point — exports the lookup functions and re-exports the types
+  marketplaces.ts       # Marketplace data (34 entries) + the types derived from it
 tests/
   index.spec.ts         # Jest test suite
+  index.test-d.ts       # Type-level assertions (checked by `pnpm check:ts`, ignored by Jest)
 dist/                   # Build output (tsdown): index.mjs (ESM), index.cjs (CJS), type declarations
 .github/
   workflows/
@@ -50,6 +51,8 @@ dist/                   # Build output (tsdown): index.mjs (ESM), index.cjs (CJS
 - **Package runner**: use `pnpx` instead of `npx`
 - **Node version**: 24 (see `.node-version`)
 - **Lookup functions**: `getMarketplaceById`, `getMarketplaceByCode`, `getMarketplaceByDomain` — all return `undefined` for unknown inputs
+- **Derived types**: `marketplaces.ts` holds the data as `as const satisfies readonly Marketplace[]`, from which `MarketplaceCode`, `MarketplaceId`, `MarketplaceRegion` and `MarketplaceDomain` are derived. `MarketplaceCode`/`MarketplaceDomain` only cover entries having a `domain`
+- **Overloads**: each lookup has a literal overload returning `Marketplace` and a `string` overload returning `Marketplace | undefined`; keep them in that order and cover changes in `tests/index.test-d.ts`
 - **Case handling**: code and domain lookups are case-insensitive; domain lookup strips `www.` prefix
 - **Marketplace data**: each entry has `code`, `id`, `name`, `region`, `currencyCode`, and optional fields (`domain`, `advertisingApiDomain`, `imagesDomain`, `vendorId`, `sellerCentralDomain`, `vendorCentralDomain`)
 
