@@ -38,7 +38,7 @@
     "@swc/core": "^1.15.47",
     "@swc/jest": "^0.2.39",
     "@tsconfig/node24": "^24.0.4",
-    "@types/node": "^24.13.3",
+    "@types/node": "^24.19.1",
     "eslint-config-xo-bizon": "^4.5.0",
     "jest": "^30.4.2",
     "jest-junit": "^17.0.0",
