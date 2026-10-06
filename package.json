@@ -42,7 +42,7 @@
     "eslint-config-xo-bizon": "^4.5.0",
     "jest": "^30.4.2",
     "jest-junit": "^17.0.0",
-    "semantic-release": "^25.0.8",
+    "semantic-release": "^25.0.9",
     "tsdown": "^0.22.14",
     "typescript": "^6.0.3",
     "xo": "^4.0.0"
